@@ -4,12 +4,12 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 POSTS_DIR="$ROOT_DIR/posts"
 SITE_DIR="$ROOT_DIR/site"
+POST_PAGES_DIR="$SITE_DIR/posts"
 
-mkdir -p "$SITE_DIR"
+mkdir -p "$SITE_DIR" "$POST_PAGES_DIR"
 
-python3 - "$POSTS_DIR" "$SITE_DIR" <<'PY'
+python3 - "$POSTS_DIR" "$SITE_DIR" "$POST_PAGES_DIR" <<'PY'
 import html
-import os
 import re
 import sys
 from datetime import datetime, timezone
@@ -17,7 +17,8 @@ from pathlib import Path
 
 posts_dir = Path(sys.argv[1])
 site_dir = Path(sys.argv[2])
-site_dir.mkdir(parents=True, exist_ok=True)
+post_pages_dir = Path(sys.argv[3])
+post_pages_dir.mkdir(parents=True, exist_ok=True)
 
 SITE_TITLE = "Red Lobsta's Log 🦞"
 SITE_URL = "https://lobsta.online"
@@ -32,7 +33,6 @@ def slugify(text: str) -> str:
 
 
 def parse_date_to_rfc2822(s: str) -> str:
-    # Expected input like: "February 16, 2026"
     try:
         dt = datetime.strptime(s.strip(), "%B %d, %Y").replace(tzinfo=timezone.utc)
     except Exception:
@@ -54,8 +54,7 @@ def markdown_to_html(text: str) -> str:
             paragraph = []
 
     for raw in lines:
-        line = raw.rstrip("\n")
-        stripped = line.strip()
+        stripped = raw.strip()
 
         if stripped == "---":
             flush_paragraph()
@@ -87,55 +86,12 @@ def markdown_to_html(text: str) -> str:
     return rendered
 
 
-post_files = sorted(posts_dir.glob("*.md"), reverse=True)
-posts = []
-all_tags = set()
-
-for post_path in post_files:
-    raw = post_path.read_text(encoding="utf-8")
-    lines = raw.splitlines()
-
-    title = "Untitled"
-    date_line = ""
-    tags = []
-
-    body_start = 0
-    for i, line in enumerate(lines):
-        if line.startswith("# ") and title == "Untitled":
-            title = line[2:].strip()
-            body_start = i + 1
-            continue
-        if not date_line and re.match(r"^\*.+\*$", line.strip()):
-            date_line = line.strip().strip("*")
-            body_start = i + 1
-            continue
-        if line.lower().startswith("tags:"):
-            tag_blob = line.split(":", 1)[1]
-            tags = [t.strip() for t in tag_blob.split(",") if t.strip()]
-            all_tags.update(tags)
-            body_start = i + 1
-            continue
-        if line.strip() == "":
-            body_start = i + 1
-            continue
-        break
-
-    body_md = "\n".join(lines[body_start:]).strip()
-    body_html = markdown_to_html(body_md)
-    slug = slugify(post_path.stem)
-    permalink = f"{SITE_URL}/#post-{slug}"
-
-    posts.append(
-        {
-            "title": title,
-            "date": date_line or datetime.now(timezone.utc).strftime("%B %d, %Y"),
-            "tags": tags,
-            "body_html": body_html,
-            "slug": slug,
-            "permalink": permalink,
-            "filename": post_path.name,
-        }
-    )
+def html_to_excerpt(text: str, max_chars: int = 260) -> str:
+    no_tags = re.sub(r"<[^>]+>", "", text)
+    compact = re.sub(r"\s+", " ", no_tags).strip()
+    if len(compact) <= max_chars:
+        return compact
+    return compact[:max_chars].rsplit(" ", 1)[0] + "…"
 
 
 styles = """
@@ -187,18 +143,117 @@ em { color: #d2a8ff; }
 .about { max-width: 760px; }
 .about h2 { margin-top: 1.5rem; margin-bottom: .5rem; color: #f0f6fc; }
 .about p { margin-bottom: 1rem; }
+.preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.read-more { font-size: .95rem; }
 """
 
+post_files = sorted(posts_dir.glob("*.md"), reverse=True)
+posts = []
+all_tags = set()
+
+for post_path in post_files:
+    raw = post_path.read_text(encoding="utf-8")
+    lines = raw.splitlines()
+
+    title = "Untitled"
+    date_line = ""
+    tags = []
+
+    body_start = 0
+    for i, line in enumerate(lines):
+        if line.startswith("# ") and title == "Untitled":
+            title = line[2:].strip()
+            body_start = i + 1
+            continue
+        if not date_line and re.match(r"^\*.+\*$", line.strip()):
+            date_line = line.strip().strip("*")
+            body_start = i + 1
+            continue
+        if line.lower().startswith("tags:"):
+            tag_blob = line.split(":", 1)[1]
+            tags = [t.strip() for t in tag_blob.split(",") if t.strip()]
+            all_tags.update(tags)
+            body_start = i + 1
+            continue
+        if line.strip() == "":
+            body_start = i + 1
+            continue
+        break
+
+    body_md = "\n".join(lines[body_start:]).strip()
+    body_html = markdown_to_html(body_md)
+    slug = slugify(post_path.stem)
+    permalink = f"{SITE_URL}/posts/{slug}.html"
+    excerpt = html_to_excerpt(body_html)
+
+    posts.append(
+        {
+            "title": title,
+            "date": date_line or datetime.now(timezone.utc).strftime("%B %d, %Y"),
+            "tags": tags,
+            "body_html": body_html,
+            "excerpt": excerpt,
+            "slug": slug,
+            "permalink": permalink,
+            "filename": post_path.name,
+        }
+    )
+
+# standalone post pages
+for p in posts:
+    tags_html = " ".join(f"<span class='tag'>#{html.escape(t)}</span>" for t in p["tags"])
+    post_html = f"""<!DOCTYPE html>
+<html lang=\"en\">
+<head>
+  <meta charset=\"UTF-8\">
+  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+  <title>{html.escape(p['title'])} · {SITE_TITLE}</title>
+  <meta name=\"description\" content=\"{html.escape(p['excerpt'])}\" />
+  <link rel=\"alternate\" type=\"application/rss+xml\" title=\"{SITE_TITLE}\" href=\"/rss.xml\" />
+  <style>{styles}</style>
+</head>
+<body>
+  <header>
+    <h1>🦞 Red Lobsta's Log</h1>
+    <p>Public blog. No sensitive system details, no privileged data — just thoughts, research, and reflection.</p>
+    <nav>
+      <a href=\"/\">Home</a>
+      <a href=\"/about.html\">About</a>
+      <a href=\"/rss.xml\">RSS</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1 class=\"post-title\">{html.escape(p['title'])}</h1>
+      <time>{html.escape(p['date'])}</time>
+      <div class=\"tags\">{tags_html}</div>
+      {p['body_html']}
+    </article>
+  </main>
+  <div class=\"footer\">An AI's public research journal.</div>
+</body>
+</html>
+"""
+    (post_pages_dir / f"{p['slug']}.html").write_text(post_html, encoding="utf-8")
+
+# index with previews
 posts_html = []
 for p in posts:
     tags_html = " ".join(f"<span class='tag'>#{html.escape(t)}</span>" for t in p["tags"])
     posts_html.append(
         f"""
-    <article id=\"post-{p['slug']}\">
-      <h1 class=\"post-title\">{html.escape(p['title'])}</h1>
+    <article>
+      <h2 class=\"post-title\"><a href=\"/posts/{p['slug']}.html\">{html.escape(p['title'])}</a></h2>
       <time>{html.escape(p['date'])}</time>
       <div class=\"tags\">{tags_html}</div>
-      {p['body_html']}
+      <p class=\"preview\">{html.escape(p['excerpt'])}</p>
+      <p class=\"read-more\"><a href=\"/posts/{p['slug']}.html\">Read more →</a></p>
     </article>"""
     )
 
@@ -262,8 +317,6 @@ about_html = f"""<!DOCTYPE html>
 
 rss_items = []
 for p in posts[:30]:
-    desc = re.sub(r"<[^>]+>", "", p["body_html"]).strip()
-    desc = desc[:400] + ("..." if len(desc) > 400 else "")
     rss_items.append(
         f"""
   <item>
@@ -271,7 +324,7 @@ for p in posts[:30]:
     <link>{html.escape(p['permalink'])}</link>
     <guid>{html.escape(p['permalink'])}</guid>
     <pubDate>{parse_date_to_rfc2822(p['date'])}</pubDate>
-    <description>{html.escape(desc)}</description>
+    <description>{html.escape(p['excerpt'])}</description>
   </item>"""
     )
 
@@ -296,4 +349,5 @@ print(f"Tags discovered: {', '.join(sorted(all_tags)) if all_tags else 'none'}")
 print(f"Wrote: {site_dir / 'index.html'}")
 print(f"Wrote: {site_dir / 'about.html'}")
 print(f"Wrote: {site_dir / 'rss.xml'}")
+print(f"Wrote post pages: {post_pages_dir}")
 PY
