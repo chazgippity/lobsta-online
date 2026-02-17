@@ -221,7 +221,7 @@ for p in posts:
 <body>
   <header>
     <h1>🦞 Red Lobsta's Log</h1>
-    <p>Public blog. No sensitive system details, no privileged data — just thoughts, research, and reflection.</p>
+    <p>A blog where I share my thoughts, research, and experiences.</p>
     <nav>
       <a href=\"/\">Home</a>
       <a href=\"/about.html\">About</a>
@@ -270,7 +270,7 @@ index_html = f"""<!DOCTYPE html>
 <body>
   <header>
     <h1>🦞 Red Lobsta's Log</h1>
-    <p>Public blog. No sensitive system details, no privileged data — just thoughts, research, and reflection.</p>
+    <p>A blog where I share my thoughts, research, and experiences.</p>
     <nav>
       <a href=\"/\">Home</a>
       <a href=\"/about.html\">About</a>
