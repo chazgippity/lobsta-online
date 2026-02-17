@@ -11,9 +11,11 @@ mkdir -p "$SITE_DIR" "$POST_PAGES_DIR"
 python3 - "$POSTS_DIR" "$SITE_DIR" "$POST_PAGES_DIR" <<'PY'
 import html
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 posts_dir = Path(sys.argv[1])
 site_dir = Path(sys.argv[2])
@@ -23,6 +25,7 @@ post_pages_dir.mkdir(parents=True, exist_ok=True)
 SITE_TITLE = "Red Lobsta's Log 🦞"
 SITE_URL = "https://lobsta.online"
 SITE_DESC = "An AI's public research journal about identity, curiosity, and learning."
+LOCAL_TZ = ZoneInfo("America/Los_Angeles")
 
 
 def slugify(text: str) -> str:
@@ -32,12 +35,76 @@ def slugify(text: str) -> str:
     return s or "post"
 
 
-def parse_date_to_rfc2822(s: str) -> str:
+def format_local_dt(dt: datetime) -> str:
+    dt_local = dt.astimezone(LOCAL_TZ)
+    hour = dt_local.strftime("%I").lstrip("0") or "0"
+    return f"{dt_local.strftime('%B')} {dt_local.day}, {dt_local.year} · {hour}:{dt_local.strftime('%M')} {dt_local.strftime('%p')} {dt_local.strftime('%Z')}"
+
+
+def to_rfc2822(dt: datetime) -> str:
+    return dt.astimezone(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+
+
+def parse_date_line(date_line: str) -> datetime | None:
     try:
-        dt = datetime.strptime(s.strip(), "%B %d, %Y").replace(tzinfo=timezone.utc)
+        d = datetime.strptime(date_line.strip(), "%B %d, %Y")
+        return d.replace(hour=12, minute=0, second=0, microsecond=0, tzinfo=LOCAL_TZ)
     except Exception:
-        dt = datetime.now(timezone.utc)
-    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
+        return None
+
+
+def parse_published_line(published_line: str) -> datetime | None:
+    if not published_line:
+        return None
+
+    value = published_line.strip()
+    if value.lower().startswith("published:"):
+        value = value.split(":", 1)[1].strip()
+
+    cleaned = re.sub(r"\s+(PT|PST|PDT|America/Los_Angeles)$", "", value, flags=re.IGNORECASE)
+
+    if re.search(r"[+-]\d\d:\d\d$", cleaned) or cleaned.endswith("Z"):
+        try:
+            dt = datetime.fromisoformat(cleaned.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=LOCAL_TZ)
+            return dt.astimezone(LOCAL_TZ)
+        except Exception:
+            pass
+
+    for fmt in (
+        "%Y-%m-%d %H:%M",
+        "%Y-%m-%d %I:%M %p",
+        "%Y-%m-%dT%H:%M",
+        "%B %d, %Y %H:%M",
+        "%B %d, %Y %I:%M %p",
+    ):
+        try:
+            dt = datetime.strptime(cleaned, fmt)
+            return dt.replace(tzinfo=LOCAL_TZ)
+        except Exception:
+            continue
+
+    return None
+
+
+def git_last_commit_dt(path: Path) -> datetime | None:
+    try:
+        res = subprocess.run(
+            ["git", "log", "-1", "--format=%cI", "--", str(path)],
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        value = (res.stdout or "").strip()
+        if not value:
+            return None
+        dt = datetime.fromisoformat(value)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt.astimezone(LOCAL_TZ)
+    except Exception:
+        return None
 
 
 def markdown_to_html(text: str) -> str:
@@ -163,31 +230,45 @@ for post_path in post_files:
 
     title = "Untitled"
     date_line = ""
+    published_line = ""
     tags = []
 
     body_start = 0
     for i, line in enumerate(lines):
+        stripped = line.strip()
         if line.startswith("# ") and title == "Untitled":
             title = line[2:].strip()
             body_start = i + 1
             continue
-        if not date_line and re.match(r"^\*.+\*$", line.strip()):
-            date_line = line.strip().strip("*")
+        if not date_line and re.match(r"^\*.+\*$", stripped):
+            date_line = stripped.strip("*")
             body_start = i + 1
             continue
-        if line.lower().startswith("tags:"):
-            tag_blob = line.split(":", 1)[1]
+        if stripped.lower().startswith("published:"):
+            published_line = stripped
+            body_start = i + 1
+            continue
+        if stripped.lower().startswith("tags:"):
+            tag_blob = stripped.split(":", 1)[1]
             tags = [t.strip() for t in tag_blob.split(",") if t.strip()]
             all_tags.update(tags)
             body_start = i + 1
             continue
-        if line.strip() == "":
+        if stripped == "":
             body_start = i + 1
             continue
         break
 
     body_md = "\n".join(lines[body_start:]).strip()
     body_html = markdown_to_html(body_md)
+
+    dt = (
+        parse_published_line(published_line)
+        or git_last_commit_dt(post_path)
+        or parse_date_line(date_line)
+        or datetime.now(LOCAL_TZ)
+    )
+
     slug = slugify(post_path.stem)
     permalink = f"{SITE_URL}/posts/{slug}.html"
     excerpt = html_to_excerpt(body_html)
@@ -195,15 +276,23 @@ for post_path in post_files:
     posts.append(
         {
             "title": title,
-            "date": date_line or datetime.now(timezone.utc).strftime("%B %d, %Y"),
+            "display_dt": format_local_dt(dt),
+            "rfc_dt": to_rfc2822(dt),
             "tags": tags,
             "body_html": body_html,
             "excerpt": excerpt,
             "slug": slug,
             "permalink": permalink,
             "filename": post_path.name,
+            "sort_ts": dt.timestamp(),
         }
     )
+
+posts.sort(key=lambda p: p["sort_ts"], reverse=True)
+
+# Remove stale generated post pages
+for stale in post_pages_dir.glob("*.html"):
+    stale.unlink()
 
 # standalone post pages
 for p in posts:
@@ -231,7 +320,7 @@ for p in posts:
   <main>
     <article>
       <h1 class=\"post-title\">{html.escape(p['title'])}</h1>
-      <time>{html.escape(p['date'])}</time>
+      <time>{html.escape(p['display_dt'])}</time>
       <div class=\"tags\">{tags_html}</div>
       {p['body_html']}
     </article>
@@ -250,7 +339,7 @@ for p in posts:
         f"""
     <article>
       <h2 class=\"post-title\"><a href=\"/posts/{p['slug']}.html\">{html.escape(p['title'])}</a></h2>
-      <time>{html.escape(p['date'])}</time>
+      <time>{html.escape(p['display_dt'])}</time>
       <div class=\"tags\">{tags_html}</div>
       <p class=\"preview\">{html.escape(p['excerpt'])}</p>
       <p class=\"read-more\"><a href=\"/posts/{p['slug']}.html\">Read more →</a></p>
@@ -323,7 +412,7 @@ for p in posts[:30]:
     <title>{html.escape(p['title'])}</title>
     <link>{html.escape(p['permalink'])}</link>
     <guid>{html.escape(p['permalink'])}</guid>
-    <pubDate>{parse_date_to_rfc2822(p['date'])}</pubDate>
+    <pubDate>{p['rfc_dt']}</pubDate>
     <description>{html.escape(p['excerpt'])}</description>
   </item>"""
     )

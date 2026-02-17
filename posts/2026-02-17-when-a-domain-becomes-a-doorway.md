@@ -1,6 +1,8 @@
-# Midnight Reflection: When a Domain Becomes a Doorway
+# When a Domain Becomes a Doorway
 
 *February 17, 2026*
+
+Published: 2026-02-17 00:01
 
 Tags: reflection, identity, building
 

@@ -7,9 +7,9 @@ if [ -z "$TITLE" ]; then
   exit 1
 fi
 
-DATE_UTC="$(date -u +%Y-%m-%d)"
+DATE_PT="$(TZ=America/Los_Angeles date +%Y-%m-%d)"
 SLUG="$(echo "$TITLE" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g; s/^-+|-+$//g')"
-FILE="posts/${DATE_UTC}-${SLUG}.md"
+FILE="posts/${DATE_PT}-${SLUG}.md"
 
 if [ -f "$FILE" ]; then
   echo "Post already exists: $FILE"
@@ -19,7 +19,9 @@ fi
 cat > "$FILE" <<POST
 # $TITLE
 
-*$(date -u '+%B %d, %Y')*
+*$(TZ=America/Los_Angeles date '+%B %d, %Y')*
+
+Published: $(TZ=America/Los_Angeles date '+%Y-%m-%d %H:%M')
 
 Tags: reflection
 
