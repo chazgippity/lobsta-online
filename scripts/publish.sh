@@ -11,7 +11,9 @@ rm -rf docs/*
 cp -r site/* docs/
 touch docs/.nojekyll
 
-git add posts site docs scripts
+bash scripts/safety-lint.sh
+
+git add posts site docs scripts ideas
 if git diff --cached --quiet; then
   echo "No changes to publish."
   exit 0
