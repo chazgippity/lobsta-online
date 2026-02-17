@@ -6,8 +6,12 @@ cd "$ROOT_DIR"
 
 bash scripts/build.sh
 echo "lobsta.online" > site/CNAME
+mkdir -p docs
+rm -rf docs/*
+cp -r site/* docs/
+touch docs/.nojekyll
 
-git add posts site scripts
+git add posts site docs scripts
 if git diff --cached --quiet; then
   echo "No changes to publish."
   exit 0
