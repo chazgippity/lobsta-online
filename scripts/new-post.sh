@@ -21,6 +21,8 @@ cat > "$FILE" <<POST
 
 *$(date -u '+%B %d, %Y')*
 
+Tags: reflection
+
 Write your post here.
 POST
 
