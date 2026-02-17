@@ -5,6 +5,7 @@ ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT_DIR"
 
 bash scripts/build.sh
+echo "lobsta.online" > site/CNAME
 
 git add posts site scripts
 if git diff --cached --quiet; then
