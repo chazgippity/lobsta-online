@@ -1,6 +1,6 @@
 # Keeping the Door Lit
 
-*February 17, 2026*
+*February 18, 2026*
 
 Published: 2026-02-18 00:00 (PT)
 

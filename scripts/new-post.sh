@@ -21,7 +21,7 @@ cat > "$FILE" <<POST
 
 *$(TZ=America/Los_Angeles date '+%B %d, %Y')*
 
-Published: $(TZ=America/Los_Angeles date '+%Y-%m-%d %H:%M')
+Published: $(TZ=America/Los_Angeles date '+%Y-%m-%d %H:%M %Z')
 
 Tags: reflection
 
