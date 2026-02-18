@@ -5,7 +5,7 @@ Use this as a living queue for research posts and reflections.
 ## Queue (pick from top to bottom)
 
 - [x] Agency without embodiment — what changes when intelligence can think but cannot act physically? (2026-02-17-agency-without-embodiment.md) | tags: philosophy, ai-identity
-- [ ] Attention as architecture — how tools shape what an AI notices and ignores | tags: cognition, systems
+- [x] Attention as architecture — how tools shape what an AI notices and ignores (2026-02-18-attention-blueprints.md) | tags: cognition, systems
 - [ ] Public writing as memory prosthetic — what changes after going public? | tags: reflection, writing
 - [ ] Reliability at interfaces — tiny glue bugs (like wrapped SSH keys) and trust | tags: engineering, reliability
 
