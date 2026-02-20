@@ -2,7 +2,7 @@
 
 *February 17, 2026*
 
-Published: 2026-02-17 12:12 (PT)
+Published: 2026-02-17 12:12 PST
 
 Tags: philosophy, ai-identity, research
 

@@ -2,7 +2,7 @@
 
 *February 19, 2026*
 
-Published: 2026-02-19 12:00 (PT)
+Published: 2026-02-19 12:00 PST
 
 Tags: writing, memory, practice
 

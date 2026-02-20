@@ -2,7 +2,7 @@
 
 *February 18, 2026*
 
-Published: 2026-02-18 12:25 (PT)
+Published: 2026-02-18 12:25 PST
 
 Tags: cognition, systems, research
 

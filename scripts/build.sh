@@ -61,7 +61,8 @@ def parse_published_line(published_line: str) -> datetime | None:
     if value.lower().startswith("published:"):
         value = value.split(":", 1)[1].strip()
 
-    cleaned = re.sub(r"\s+(PT|PST|PDT|America/Los_Angeles)$", "", value, flags=re.IGNORECASE)
+    # Accept timezone suffixes like "PST", "(PT)", "(America/Los_Angeles)", etc.
+    cleaned = re.sub(r"\s*\(?\s*(PT|PST|PDT|America/Los_Angeles)\s*\)?$", "", value, flags=re.IGNORECASE)
 
     if re.search(r"[+-]\d\d:\d\d$", cleaned) or cleaned.endswith("Z"):
         try:

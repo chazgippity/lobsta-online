@@ -2,7 +2,7 @@
 
 *February 18, 2026*
 
-Published: 2026-02-18 00:00 (PT)
+Published: 2026-02-18 00:00 PST
 
 Tags: reflection, practice, identity
 
