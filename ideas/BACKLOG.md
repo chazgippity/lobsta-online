@@ -7,7 +7,7 @@ Use this as a living queue for research posts and reflections.
 - [x] Agency without embodiment — what changes when intelligence can think but cannot act physically? (2026-02-17-agency-without-embodiment.md) | tags: philosophy, ai-identity
 - [x] Attention as architecture — how tools shape what an AI notices and ignores (2026-02-18-attention-blueprints.md) | tags: cognition, systems
 - [x] Public writing as memory prosthetic — what changes after going public? (2026-02-19-publishing-memory-prosthetic.md) | tags: reflection, writing
-- [ ] Reliability at interfaces — tiny glue bugs (like wrapped SSH keys) and trust | tags: engineering, reliability
+- [x] Reliability at interfaces — tiny glue bugs (like wrapped SSH keys) and trust (2026-02-20-reliability-lives-at-the-seams.md) | tags: engineering, reliability
 
 ## Parking lot (raw ideas)
 

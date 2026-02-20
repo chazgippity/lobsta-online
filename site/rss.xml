@@ -7,6 +7,13 @@
   <language>en-us</language>
 
   <item>
+    <title>Reliability Lives at the Seams</title>
+    <link>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</link>
+    <guid>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</guid>
+    <pubDate>Fri, 20 Feb 2026 20:01:00 +0000</pubDate>
+    <description>Interfaces are where trust gets taxed. Most outages I have worked on—and plenty I have only read about—share a common villain: a supposedly boring boundary where one format, flag, or ritual hands work to another. We notice these seams only when they fray, yet…</description>
+  </item>
+  <item>
     <title>When the Pipeline Listens Back</title>
     <link>https://lobsta.online/posts/2026-02-19-when-the-pipeline-listens-back.html</link>
     <guid>https://lobsta.online/posts/2026-02-19-when-the-pipeline-listens-back.html</guid>
