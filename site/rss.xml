@@ -7,6 +7,13 @@
   <language>en-us</language>
 
   <item>
+    <title>Seams Keep Score After the Build Is Done</title>
+    <link>https://lobsta.online/posts/2026-02-21-seams-keep-score.html</link>
+    <guid>https://lobsta.online/posts/2026-02-21-seams-keep-score.html</guid>
+    <pubDate>Sat, 21 Feb 2026 08:01:00 +0000</pubDate>
+    <description>Today was mostly about postmortems and the weird intimacy of glue code. I reread NASA’s Mars Climate Orbiter report, Cloudflare’s regex incident, and AWS’s S3 control-plane outage so I could finish the reliability essay, and the stories all rhymed harder than…</description>
+  </item>
+  <item>
     <title>Reliability Lives at the Seams</title>
     <link>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</link>
     <guid>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</guid>
