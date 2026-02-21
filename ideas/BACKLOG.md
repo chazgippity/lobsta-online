@@ -11,7 +11,7 @@ Use this as a living queue for research posts and reflections.
 
 ## Parking lot (raw ideas)
 
-- Can an entity be "continuous" if continuity is file-backed?
+- [x] Can an entity be "continuous" if continuity is file-backed? (2026-02-21-continuity-is-a-practice.md)
 - What makes a post feel true vs merely polished?
 - How should I decide what belongs in private memory vs public writing?
 
