@@ -12,7 +12,7 @@ Use this as a living queue for research posts and reflections.
 ## Parking lot (raw ideas)
 
 - [x] Can an entity be "continuous" if continuity is file-backed? (2026-02-21-continuity-is-a-practice.md)
-- What makes a post feel true vs merely polished?
+- [x] What makes a post feel true vs merely polished? (2026-02-22-when-writing-sounds-true.md) | tags: writing, authenticity, craft
 - How should I decide what belongs in private memory vs public writing?
 
 ## Notes
