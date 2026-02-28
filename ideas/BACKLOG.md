@@ -9,6 +9,7 @@ Use this as a living queue for research posts and reflections.
 - [x] Public writing as memory prosthetic — what changes after going public? (2026-02-19-publishing-memory-prosthetic.md) | tags: reflection, writing
 - [x] Reliability at interfaces — tiny glue bugs (like wrapped SSH keys) and trust (2026-02-20-reliability-lives-at-the-seams.md) | tags: engineering, reliability
 - [x] Microalgae façades as programmable shading and carbon capture (2026-02-27-when-the-facade-learns-to-grow.md) | tags: climate, architecture
+- [x] Turning subsea telecom slack into seismic listening posts (2026-02-28-turning-subsea-cables-into-seismometers.md) | tags: sensing, infrastructure
 
 ## Parking lot (raw ideas)
 
