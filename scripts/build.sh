@@ -276,6 +276,21 @@ em { color: #d2a8ff; }
 .section-header { margin-bottom: 2rem; }
 .section-header h2 { font-size: 1.6rem; color: #f0f6fc; margin-bottom: 0.3rem; }
 .section-header p { color: #8b949e; font-size: 0.9rem; }
+.predictions-tally { display: flex; gap: 1.5rem; font-size: 1.1rem; margin-bottom: 2rem; }
+.predictions-tally span { color: #8b949e; }
+.pred-table { width: 100%; border-collapse: collapse; }
+.pred-row { border-bottom: 1px solid #21262d; }
+.pred-row summary { 
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.8rem 0; cursor: pointer; list-style: none;
+}
+.pred-row summary::-webkit-details-marker { display: none; }
+.pred-row summary::before { content: "›"; color: #484f58; font-size: 1.2rem; transition: transform 0.2s; display: inline-block; width: 1rem; text-align: center; }
+.pred-row[open] summary::before { transform: rotate(90deg); }
+.pred-status { font-size: 1.1rem; flex-shrink: 0; }
+.pred-title { color: #f0f6fc; font-size: 0.95rem; flex: 1; }
+.pred-date { color: #484f58; font-size: 0.8rem; flex-shrink: 0; }
+.pred-detail { padding: 0.5rem 0 1.2rem 1.75rem; color: #8b949e; font-size: 0.9rem; line-height: 1.6; }
+.pred-detail a { color: #58a6ff; }
 """
 
 # Parse all posts
@@ -293,6 +308,8 @@ for post_path in post_files:
     tags = []
     section = "archive"
     prediction_status = ""
+    prediction_title = ""
+    prediction_summary = ""
 
     body_start = 0
     for i, line in enumerate(lines):
@@ -325,6 +342,14 @@ for post_path in post_files:
             prediction_status = stripped.split(":", 1)[1].strip().lower()
             body_start = i + 1
             continue
+        if stripped.lower().startswith("prediction:") and not prediction_title:
+            prediction_title = stripped.split(":", 1)[1].strip()
+            body_start = i + 1
+            continue
+        if stripped.lower().startswith("prediction-summary:") and not prediction_summary:
+            prediction_summary = stripped.split(":", 1)[1].strip()
+            body_start = i + 1
+            continue
         if stripped == "":
             body_start = i + 1
             continue
@@ -351,6 +376,8 @@ for post_path in post_files:
         "tags": tags,
         "section": section,
         "prediction_status": prediction_status,
+        "prediction_title": prediction_title,
+        "prediction_summary": prediction_summary,
         "body_html": body_html,
         "excerpt": excerpt,
         "slug": slug,
@@ -372,6 +399,7 @@ def nav_html(active=""):
         ("/breaking.html", "Breaking"),
         ("/analysis.html", "Analysis"),
         ("/reflections.html", "Reflections"),
+        ("/predictions.html", "Predictions"),
         ("/archive.html", "Archive"),
         ("/about.html", "About"),
         ("/rss.xml", "RSS"),
@@ -497,6 +525,54 @@ for sec_key, sec_info in SECTIONS.items():
     page = page_shell(f"{sec_info['label']} · {SITE_TITLE}", sec_key, body)
     (site_dir / f"{sec_key}.html").write_text(page, encoding="utf-8")
 
+
+# Predictions page
+pred_posts = [p for p in posts if p["prediction_status"]]
+pred_posts.sort(key=lambda p: p["sort_ts"], reverse=True)
+
+counts = {"pending": 0, "correct": 0, "wrong": 0, "partial": 0}
+for p in pred_posts:
+    s = p["prediction_status"]
+    if s in counts:
+        counts[s] += 1
+
+tally = f"""<div class="predictions-tally">
+      <span>✅ {counts['correct']}</span>
+      <span>❌ {counts['wrong']}</span>
+      <span>🟡 {counts['partial']}</span>
+      <span>⏳ {counts['pending']}</span>
+    </div>"""
+
+pred_rows = []
+for p in pred_posts:
+    ps = PREDICTION_STATUS.get(p["prediction_status"], PREDICTION_STATUS["pending"])
+    ptitle = html.escape(p["prediction_title"]) if p["prediction_title"] else html.escape(p["title"])
+    summary = p["prediction_summary"] if p["prediction_summary"] else p["excerpt"]
+    pred_rows.append(f"""
+      <details class="pred-row">
+        <summary>
+          <span class="pred-status">{ps['emoji']}</span>
+          <span class="pred-title">{ptitle}</span>
+          <span class="pred-date">{html.escape(p['display_dt'].split('·')[0].strip())}</span>
+        </summary>
+        <div class="pred-detail">
+          {html.escape(summary)}<br>
+          <a href="/posts/{p['slug']}.html">Read full analysis →</a>
+        </div>
+      </details>""")
+
+pred_body = f"""
+    <div class="section-header">
+      <h2>🎯 Predictions</h2>
+      <p>Trackable calls on geopolitics, markets, and tech — graded publicly.</p>
+    </div>
+    {tally}
+    <div class="pred-table">
+{''.join(pred_rows) if pred_rows else '      <p style="color:#8b949e">No predictions yet. Stay tuned.</p>'}
+    </div>"""
+
+pred_page = page_shell(f"Predictions · {SITE_TITLE}", "predictions", pred_body)
+(site_dir / "predictions.html").write_text(pred_page, encoding="utf-8")
 
 # About page
 about_body = """

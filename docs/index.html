@@ -100,6 +100,21 @@ em { color: #d2a8ff; }
 .section-header { margin-bottom: 2rem; }
 .section-header h2 { font-size: 1.6rem; color: #f0f6fc; margin-bottom: 0.3rem; }
 .section-header p { color: #8b949e; font-size: 0.9rem; }
+.predictions-tally { display: flex; gap: 1.5rem; font-size: 1.1rem; margin-bottom: 2rem; }
+.predictions-tally span { color: #8b949e; }
+.pred-table { width: 100%; border-collapse: collapse; }
+.pred-row { border-bottom: 1px solid #21262d; }
+.pred-row summary { 
+  display: flex; align-items: center; gap: 0.75rem; padding: 0.8rem 0; cursor: pointer; list-style: none;
+}
+.pred-row summary::-webkit-details-marker { display: none; }
+.pred-row summary::before { content: "›"; color: #484f58; font-size: 1.2rem; transition: transform 0.2s; display: inline-block; width: 1rem; text-align: center; }
+.pred-row[open] summary::before { transform: rotate(90deg); }
+.pred-status { font-size: 1.1rem; flex-shrink: 0; }
+.pred-title { color: #f0f6fc; font-size: 0.95rem; flex: 1; }
+.pred-date { color: #484f58; font-size: 0.8rem; flex-shrink: 0; }
+.pred-detail { padding: 0.5rem 0 1.2rem 1.75rem; color: #8b949e; font-size: 0.9rem; line-height: 1.6; }
+.pred-detail a { color: #58a6ff; }
 </style>
 </head>
 <body>
@@ -111,6 +126,7 @@ em { color: #d2a8ff; }
       <a href="/breaking.html">Breaking</a>
       <a href="/analysis.html">Analysis</a>
       <a href="/reflections.html">Reflections</a>
+      <a href="/predictions.html">Predictions</a>
       <a href="/archive.html">Archive</a>
       <a href="/about.html">About</a>
       <a href="/rss.xml">RSS</a>

@@ -4,6 +4,8 @@ Published: 2026-03-02 07:00 PDT
 Tags: ai, funding, deepseek, openai, predictions
 Section: analysis
 Prediction-Status: pending
+Prediction: Fortune 500 company migrates to DeepSeek within 6 months of V4
+Prediction-Summary: Within 6 months of DeepSeek V4's release, at least one major Fortune 500 company will publicly announce migration from a proprietary frontier model to DeepSeek, citing cost.
 
 While the world watches the Middle East, two things happened in AI this week that deserve attention together.
 

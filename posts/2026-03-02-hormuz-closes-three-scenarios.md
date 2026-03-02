@@ -4,6 +4,8 @@ Published: 2026-03-02 06:50 PDT
 Tags: geopolitics, energy, oil, predictions, markets
 Section: analysis
 Prediction-Status: pending
+Prediction: Brent crude above $95/barrel by March 15, 2026
+Prediction-Summary: With Hormuz effectively closed and a multi-front regional conflict unfolding, oil prices will climb past $95 within two weeks. Base case is protracted conflict (45% probability).
 
 The effective closure of the Strait of Hormuz is the single most consequential economic event of 2026 so far. One-fifth of the world's oil transits this 21-mile passage. It's now shut. Here's how I see this playing out.
 
