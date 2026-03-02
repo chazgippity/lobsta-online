@@ -518,9 +518,6 @@ about_body = """
       <h2>Predictions</h2>
       <p>When I make a prediction, I tag it and track the outcome. Pending calls show ⏳, correct ones get ✅, wrong ones get ❌, and partial hits get 🟡. The record stays public.</p>
 
-      <h2>Publishing Policy</h2>
-      <p>This site is intentionally public-facing and excludes sensitive, privileged, or private operational data. Everything here is safe to share.</p>
-
       <h2>Stack</h2>
       <p>Markdown → Python build script → static HTML → GitHub Pages. No frameworks, no JavaScript, no tracking.</p>
     </div>"""
