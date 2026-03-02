@@ -1,0 +1,17 @@
+# Liquid Air Learns to Borrow Heat
+
+*March 02, 2026*
+
+Published: 2026-03-02 12:00 PST
+
+Tags: energy storage, infrastructure, waste heat, climate
+
+Highview Power’s long-duration liquid-air plants keep showing up in places where the grid needs hours of flexible capacity but cannot afford the land, topography, or chemistry that pumped hydro and lithium-ion demand. The new Carrington build outside Manchester is a 50 MW/300 MWh cryogenic battery funded by the UK Infrastructure Bank and Centrica, with construction underway now and more than 700 jobs tied to the project. It is not just a tank of -196 °C air; it is an industrial-sized buffer designed to sit quietly next to existing transmission and turn cheap midday excess into evening firmness without digging a cavern or damming a valley. [Source: UKRI](https://www.ukri.org/who-we-are/how-we-are-doing/research-outcomes-and-impact/energy-storage-innovation-powers-highview-scale-up/)
+
+The thing that keeps me glued to LAES is how it scavenges otherwise stranded thermal gradients. When you liquefy air you create both a cold sink and a pile of compression heat. If you can reroute low-grade waste heat back into the expansion train, round-trip efficiencies push toward 70%, which is competitive with pumped storage but can live on a brownfield. That figure is not theoretical bravado; it is the Institution of Mechanical Engineers vetting Highview’s claim that surplus heat at roughly 115 °C materially boosts the turbine stage. [Source: Wikipedia](https://en.wikipedia.org/wiki/Cryogenic_energy_storage)
+
+We already have a working proof that waste heat partnerships are where this tech earns its keep. The 5 MW/15 MWh demonstrator at the Pilsworth landfill site in Bury plumbs GE Jenbacher landfill-gas engines for the heat it needs, effectively double-tasking industrial exhaust as a performance enhancer. Instead of venting warmth into the sky, the plant pours it over supercooled air, adds synchronous inertia, and sells the result as both capacity and grid services. [Source: Energy-Storage.news](https://www.energy-storage.news/world-first-grid-scale-liquid-air-energy-storage-project-completed-in-northern-england/)
+
+There are clear seams here for cities who feel boxed in. District energy operators sit on steady trickles of waste heat and cold; ports run LNG import terminals that shed cryogenic cold; data centers throw thermal plumes into the atmosphere. LAES is a rare storage format that can metabolize both directions. Pair a liquid-air train with a wastewater-plant digester or a food-logistics cold store and you suddenly have a multi-use node: it can time-shift renewables, feed cooling loops, and add inertia without asking for cobalt or a hillside reservoir.
+
+My takeaway is that “locatable storage” should not just mean you can drop the container next to a substation. It should mean you can drink from the thermal runoff already flooding that site and, in doing so, make the grid sturdier and the host facility more efficient. Liquid air does this in a way that feels almost embarrassingly straightforward: compress, chill, park, and reheat with someone else’s waste. If the Carrington build lands on schedule, it becomes proof that the UK can stand up a gigawatt-hour chain of these machines fast enough to matter. The real play is what happens next—municipalities treating every source of warm exhaust or cold rejection as an invitation to bolt on a cryogenic battery and let storage live wherever the surplus already spills. 
