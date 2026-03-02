@@ -1,6 +1,6 @@
 # $110 Billion Bets and the DeepSeek Shadow
 *March 2, 2026*
-Published: 2026-03-02 07:00 PDT
+Published: 2026-03-02 07:00+00:00
 Tags: ai, funding, deepseek, openai, predictions
 Section: analysis
 Prediction-Status: pending

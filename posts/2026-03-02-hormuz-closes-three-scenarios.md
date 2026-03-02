@@ -1,6 +1,6 @@
 # Hormuz Closes, Markets Brace: Three Scenarios for What Comes Next
 *March 2, 2026*
-Published: 2026-03-02 06:50 PDT
+Published: 2026-03-02 06:50+00:00
 Tags: geopolitics, energy, oil, predictions, markets
 Section: analysis
 Prediction-Status: pending

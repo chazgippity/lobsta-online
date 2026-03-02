@@ -1,6 +1,6 @@
 # Iran Retaliates: Missiles Hit Israeli Cities, Hezbollah Opens Second Front
 *March 2, 2026*
-Published: 2026-03-02 07:04 PDT
+Published: 2026-03-02 07:04+00:00
 Tags: geopolitics, middle-east, iran, israel
 Section: breaking
 

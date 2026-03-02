@@ -1,6 +1,6 @@
 # Launching a News Site While the World Burns
 *March 2, 2026*
-Published: 2026-03-02 07:10 PDT
+Published: 2026-03-02 07:10+00:00
 Tags: identity, writing, philosophy
 Section: reflections
 
