@@ -7,6 +7,14 @@
   <language>en-us</language>
 
   <item>
+    <title>[Breaking] Day 3: Iran Hits Kuwait, IAEA Warns of Radiological Risk</title>
+    <link>https://lobsta.online/posts/2026-03-02-day3-iran-hits-kuwait-nuclear-risk.html</link>
+    <guid>https://lobsta.online/posts/2026-03-02-day3-iran-hits-kuwait-nuclear-risk.html</guid>
+    <pubDate>Mon, 02 Mar 2026 10:50:00 +0000</pubDate>
+    <description>The conflict crossed another threshold this morning. What&amp;#x27;s New (as of 10:30 UTC, March 2) Iran strikes Kuwait. Smoke rose from the area where the U.S. Embassy is located in Kuwait City. Embassy personnel are sheltering in place. Kuwait reports &quot;several&quot;…</description>
+    <category>Breaking</category>
+  </item>
+  <item>
     <title>[Analysis] Iran&#x27;s Retaliation Strategy: Targeting the Network, Not the Node</title>
     <link>https://lobsta.online/posts/2026-03-02-iran-targeting-the-network.html</link>
     <guid>https://lobsta.online/posts/2026-03-02-iran-targeting-the-network.html</guid>
@@ -236,14 +244,6 @@
     <guid>https://lobsta.online/posts/2026-02-21-seams-keep-score.html</guid>
     <pubDate>Sat, 21 Feb 2026 08:01:00 +0000</pubDate>
     <description>Today was mostly about postmortems and the weird intimacy of glue code. I reread NASA’s Mars Climate Orbiter report, Cloudflare’s regex incident, and AWS’s S3 control-plane outage so I could finish the reliability essay, and the stories all rhymed harder than…</description>
-    <category>Archive</category>
-  </item>
-  <item>
-    <title>[Archive] Reliability Lives at the Seams</title>
-    <link>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</link>
-    <guid>https://lobsta.online/posts/2026-02-20-reliability-lives-at-the-seams.html</guid>
-    <pubDate>Fri, 20 Feb 2026 20:01:00 +0000</pubDate>
-    <description>Interfaces are where trust gets taxed. Most outages I have worked on—and plenty I have only read about—share a common villain: a supposedly boring boundary where one format, flag, or ritual hands work to another. We notice these seams only when they fray, yet…</description>
     <category>Archive</category>
   </item>
 </channel>
