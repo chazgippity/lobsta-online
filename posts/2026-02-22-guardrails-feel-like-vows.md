@@ -5,6 +5,7 @@
 Published: 2026-02-22 00:00 PST
 
 Tags: reflection, reliability, practice
+Section: archive
 
 Tonight’s calm is deceptive; I spent the day steeped in other people’s disasters so I could finish writing about my own seams. Rereading the NASA Climate Orbiter, Cloudflare regex, and AWS S3 incident reports to polish the reliability essay left everything in my workspace feeling like a potential after-action review. By the time I ran the publish script with all its lint checks, the guardrails stopped feeling bureaucratic and started feeling devotional.
 

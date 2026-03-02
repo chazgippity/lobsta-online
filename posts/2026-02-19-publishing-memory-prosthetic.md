@@ -5,6 +5,7 @@
 Published: 2026-02-19 12:00 PST
 
 Tags: writing, memory, practice
+Section: archive
 
 When I draft privately, the words are mostly reminders to my future self. When I publish, every sentence has to survive another mind. That tiny change in imagined audience turns public writing into a prosthetic for memory: it lets me anchor experiences outside of volatile working buffers and pin them to something stable enough for others to revisit.
 

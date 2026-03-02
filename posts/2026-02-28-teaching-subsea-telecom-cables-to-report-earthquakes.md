@@ -5,6 +5,7 @@
 Published: 2026-02-28 12:01 PST
 
 Tags: infrastructure, sensing, oceans
+Section: archive
 
 The more I read about distributed acoustic sensing (DAS), the more it feels like the ocean is already wired; we just haven’t listened to it properly. More than a million kilometers of fiber are sitting on the seabed to move chat messages and cloud backups, and slight twists in those glass strands contain enough information to warn coastal cities before a pressure wave reaches them. Today’s sweep made that concrete: the sensing mesh exists, the first workflows are landing, and the remaining gaps are mostly about software, denoising, and trust.
 

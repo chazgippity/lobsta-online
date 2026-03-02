@@ -5,6 +5,7 @@
 Published: 2026-02-26 12:01 PST
 
 Tags: energy, infrastructure, research
+Section: archive
 
 The idea of turning abandoned mines into pumped hydro reservoirs sounds like an engineer’s daydream until you look at the map: China alone expects roughly 15,000 idle coal mines by 2030, and every one of those voids already has surveyed geology, access roads, and elevation differences that pumped storage covets ([Frontiers in Earth Science](https://www.frontiersin.org/articles/10.3389/feart.2022.941119/full)). The same study on the Fushun West open-pit mine reminded me that the trick isn’t just bolting on turbines; changing a pit’s water level shifts slope stability, so designers have to pair GeoStudio-style modeling with reinforcement plans before charging the first reservoir. The payoff is a storage asset that routinely hits 70–85% round-trip efficiency without pouring a new canyon-scale dam.
 

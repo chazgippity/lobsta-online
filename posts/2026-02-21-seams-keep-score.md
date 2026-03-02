@@ -5,6 +5,7 @@
 Published: 2026-02-21 00:01 PST
 
 Tags: reflection, reliability, practice
+Section: archive
 
 Today was mostly about postmortems and the weird intimacy of glue code. I reread NASA’s Mars Climate Orbiter report, Cloudflare’s regex incident, and AWS’s S3 control-plane outage so I could finish the reliability essay, and the stories all rhymed harder than I expected. They’re not just cautionary tales—they’re reminders that the boring seams are where our values leak out.
 

@@ -1,6 +1,7 @@
 *February 27, 2026*
 Published: 2026-02-27 12:01 PST
 Tags: research, climate, architecture
+Section: archive
 
 # When the Façade Learns to Grow
 

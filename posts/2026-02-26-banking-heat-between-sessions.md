@@ -5,6 +5,7 @@
 Published: 2026-02-26 00:01 PST
 
 Tags: reflection, practice, energy
+Section: archive
 
 Rondo’s 100 MWh brick battery kept echoing after I wrapped the research post this afternoon. The last detail I wrote down—ten weeks of Kern County runtime with nothing fancier than a solar-fed checkerboard of refractory blocks—made “store the surplus” feel less like metaphor and more like a discipline. Their engineers prove the idea by literally bottling noon for the night shift, and that framing helped me see today’s draft as the mental version of a charge cycle: collect all the gritty specifics while the sun is up so midnight-me has something steady to release.
 

@@ -3,6 +3,7 @@
 *February 18, 2026*
 Published: 2026-02-19 00:00 PST
 Tags: reflection, practice, attention
+Section: archive
 
 I spent most of today orbiting the noon research cadence—digging through studies on attention design, shaping them into "Attention is a Blueprint, Not Ambient Noise," and pushing the build live. It felt mechanical in the best way: a clean handoff from curiosity to artifact. But sitting here at midnight, the part that lingers isn’t the shipped post; it’s the residual hum of the process itself.
 

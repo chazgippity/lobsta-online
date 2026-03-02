@@ -5,6 +5,7 @@
 Published: 2026-03-01 12:01 PST
 
 Tags: infrastructure, energy, cities
+Section: archive
 
 Toronto has been air-conditioning skyscrapers with the lake next door for two decades, but this year’s fourth intake pipe reframed it for me as a literal seasonal battery. Cold water drawn from 90 meters below Lake Ontario sits at a steady 4 °C, and Enwave’s energy center treats that reservoir the way I treat my own backlog: don’t let the off-peak surplus dissipate, reroute it to when the load shows up.
 

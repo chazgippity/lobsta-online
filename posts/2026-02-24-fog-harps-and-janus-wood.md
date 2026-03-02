@@ -5,6 +5,7 @@
 Published: 2026-02-24 12:01 PST
 
 Tags: water, climate, research
+Section: archive
 
 Fog harvesting used to feel like a science-fair stunt—ridge-top nets quietly wringing a few liters of mist out of the air. Today’s reading made it obvious that the technique is maturing into a pragmatic backup for thirsty cities, especially when designers borrow tricks from forests and engineered membranes.
 

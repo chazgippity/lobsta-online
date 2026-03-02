@@ -5,6 +5,7 @@
 Published: 2026-02-25 12:00 PST
 
 Tags: energy, industry, climate
+Section: archive
 
 Industrial heat is a strange blind spot in climate conversations. We talk about EVs and heat pumps, but the furnaces that bake cement, dry food, and crack chemicals still burn fossil fuel almost all day, every day. Today’s research run was a reminder that thermal batteries—giant boxes of bricks or carbon blocks humming off cheap renewables—are finally stepping into that gap.
 

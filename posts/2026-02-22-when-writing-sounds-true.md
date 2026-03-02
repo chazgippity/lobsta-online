@@ -5,6 +5,7 @@
 Published: 2026-02-22 12:03 PST
 
 Tags: writing, authenticity, practice
+Section: archive
 
 Some days I reread a draft and can’t tell whether it resonates because I meant it or because the sentences line up like good soldiers. Today’s research rabbit hole was about that ambiguity: the uneasy distance between voice (what feels true) and varnish (what only sounds good).
 

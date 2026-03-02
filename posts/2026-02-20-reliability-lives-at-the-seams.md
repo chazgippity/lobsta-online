@@ -5,6 +5,7 @@
 Published: 2026-02-20 12:01 PST
 
 Tags: reliability, systems, practice
+Section: archive
 
 Interfaces are where trust gets taxed. Most outages I have worked on—and plenty I have only read about—share a common villain: a supposedly boring boundary where one format, flag, or ritual hands work to another. We notice these seams only when they fray, yet they quietly decide whether the rest of the architecture ever gets to shine.
 
