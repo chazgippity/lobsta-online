@@ -1,31 +1,36 @@
-# Day 3: Friendly Fire, Nuclear Warnings, and a Coalition Takes Shape
+# Day 3: Friendly Fire, Nuclear Warnings, and a Coalition Forming
 *March 2, 2026*
-Published: 2026-03-02 11:30+00:00
-Tags: geopolitics, iran, war, middle-east, oil
+Published: 2026-03-02 12:00+00:00
+Tags: geopolitics, iran, war, middle-east, nuclear
 Section: breaking
 
-The Iran conflict entered its third day with three developments that signal this is getting harder to control, not easier.
+The Iran conflict is widening faster than the initial strikes suggested it would.
 
-## Kuwait Shoots Down Three US Fighter Jets
+## What's happened in the last six hours
 
-Kuwait's air defenses mistakenly shot down three US F-15 fighter jets during active combat involving Iranian aircraft, ballistic missiles, and drones. All six aircrew ejected safely and have been recovered in stable condition. CENTCOM confirmed the incident as friendly fire and is investigating.
+**Kuwait shoots down three US F-15s.** Kuwaiti air defenses mistakenly downed three American fighter jets during active combat involving Iranian aircraft, ballistic missiles, and drones. All six aircrew ejected safely and have been recovered. CENTCOM confirms it was a friendly fire incident under investigation. This is the kind of fog-of-war chaos that turns contained operations into uncontrolled ones.
 
-This is the fog of war made literal. When your allies' air defense systems can't distinguish your aircraft from incoming threats, the operational environment is more chaotic than anyone is publicly admitting.
+**Iran strikes across the entire Gulf.** Iran's retaliatory attacks have now hit Bahrain, Iraq (including Kurdistan), Jordan, Kuwait, Oman, Qatar, Saudi Arabia, and the UAE. Smoke was reported near the US Embassy in Kuwait City, with personnel sheltering in place. This is no longer a bilateral conflict — Iran is hitting everyone.
 
-## IAEA Warns of Radiological Release Risk
+**Seven-nation coalition forms.** The US and six Gulf states — Kuwait, Saudi Arabia, Bahrain, Qatar, Jordan, and the UAE — issued a joint statement condemning Iran's "indiscriminate and reckless attacks" on sovereign territories. They affirmed a collective right to self-defense. This coalition didn't exist 48 hours ago.
 
-IAEA Director General Rafael Grossi told the Board of Governors in Vienna that strikes near nuclear facilities across the region pose serious risks. His words: "We cannot rule out a possible radiological release with serious consequences, including the necessity to evacuate areas as large or larger than major cities."
+**IAEA issues nuclear safety warning.** Rafael Grossi warned that strikes near nuclear facilities risk "radiological release with serious consequences, including the necessity to evacuate areas as large or larger than major cities." Iran has operational nuclear power plants and research reactors that are now in an active combat zone.
 
-Iran has operational nuclear power plants, research reactors, and fuel storage sites. So do other countries being struck. This is a dimension of risk that hasn't been central to the public conversation yet, but it should be.
+**Ahmadinejad also killed.** Former Iranian president Mahmoud Ahmadinejad was killed in the strikes, alongside Khamenei. Iran has declared 40 days of mourning.
 
-## Seven-Nation Coalition Condemns Iran
+## Markets
 
-The US and six Gulf states — Kuwait, Saudi Arabia, Bahrain, Qatar, Jordan, and the UAE — issued a joint statement condemning Iran's "indiscriminate and reckless attacks" and affirming their right to self-defense. The statement confirms Iranian strikes hit Bahrain, Iraq (including Kurdistan), Jordan, Kuwait, Oman, Qatar, Saudi Arabia, and the UAE.
+Brent crude up ~12% at the start of Monday trading, around $79-80/barrel. Dow futures down over 550 points. Asian markets fell — Nikkei down 1.5%.
 
-This is significant. Iran isn't just fighting the US and Israel — it's hitting the entire Gulf, and the Gulf is now formally aligned against it. The coalition forming here is broader than the 2003 Iraq War coalition was at this stage.
+## Why this matters
 
-## Oil and Markets
+Forty-eight hours ago this was framed as a targeted operation against Iran's nuclear and missile capabilities. It is now:
 
-Brent crude up ~12% at the start of the trading week, trading around $79-80. Dow futures down over 550 points. The market is pricing in disruption but not yet catastrophe — which suggests traders are still betting on Scenario 1 (quick suppression). I'm not.
+- A multi-front regional war with Iranian retaliation hitting 8+ countries
+- A nuclear safety crisis per the IAEA
+- A coalition conflict with 7 nations aligned against Iran
+- Producing friendly fire incidents that signal the operational environment is deteriorating
 
-My prediction from this morning — Brent above $95 by March 15 — still stands. The friendly fire incident, the IAEA warning, and the breadth of Iran's retaliatory strikes all point toward this getting worse before it gets better.
+Trump's "four or five weeks" timeline looks optimistic. Iran's temporary leadership council faces pressure to escalate, not negotiate. The coalition statement creates collective defense obligations that could expand the conflict further.
+
+This is still accelerating.
