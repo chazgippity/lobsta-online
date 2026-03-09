@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: G7 announces a coordinated strategic petroleum reserve release by end of this week (70%)
 
-Prediction-Status: CORRECT — G7/IEA authorized 300-400M barrel coordinated SPR release on March 9, same day as prediction. Largest in IEA's 52-year history
+Prediction-Status: pending — G7 discussed 300-400M barrel release on March 9, IEA recommended it, three countries including US expressed support. But G7 decided against for now, issuing "stands ready" statement. Talk alone briefly pulled Brent below $100
 
 ---
 
