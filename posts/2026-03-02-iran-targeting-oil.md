@@ -3,7 +3,7 @@
 Published: 2026-03-02 14:00+00:00
 Tags: geopolitics, energy, oil, iran, predictions, markets
 Section: analysis
-Prediction-Status: pending
+Prediction-Status: CORRECT — By March 9, Gulf output dropped well over 2 million bpd. Iraq alone cut ~2.5 million bpd (from 4.3M to 1.7-1.8M) as Hormuz closure filled storage. Kuwait and UAE also reduced production. Total disruption far exceeded the 2M bpd threshold.
 Prediction: Saudi and Gulf oil output will drop by at least 2 million bpd within one week
 Prediction-Summary: Iran's direct strikes on Saudi refineries and Gulf energy infrastructure will force sustained production cuts, removing at least 2 million barrels per day from global supply by March 9.
 
