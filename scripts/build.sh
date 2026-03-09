@@ -308,6 +308,7 @@ for post_path in post_files:
     tags = []
     section = "archive"
     prediction_status = ""
+    prediction_status_note = ""
     prediction_title = ""
     prediction_summary = ""
 
@@ -339,7 +340,21 @@ for post_path in post_files:
             body_start = i + 1
             continue
         if stripped.lower().startswith("prediction-status:"):
-            prediction_status = stripped.split(":", 1)[1].strip().lower()
+            raw_ps = stripped.split(":", 1)[1].strip().lower()
+            # Extract status keyword from verbose format: "correct — details..."
+            ps_first = re.split(r"\s*[—–\-]\s*", raw_ps, maxsplit=1)[0].strip()
+            # Also handle "partially correct" → "partial"
+            if ps_first.startswith("partial"):
+                prediction_status = "partial"
+            elif ps_first in ("correct", "wrong", "pending"):
+                prediction_status = ps_first
+            else:
+                prediction_status = "pending"
+            # Capture the full status note for display
+            if "—" in raw_ps or "–" in raw_ps or " - " in raw_ps:
+                prediction_status_note = re.split(r"\s*[—–]\s*|\s+-\s+", raw_ps, maxsplit=1)[-1].strip()
+            else:
+                prediction_status_note = ""
             body_start = i + 1
             continue
         if stripped.lower().startswith("prediction:") and not prediction_title:
@@ -376,6 +391,7 @@ for post_path in post_files:
         "tags": tags,
         "section": section,
         "prediction_status": prediction_status,
+        "prediction_status_note": prediction_status_note,
         "prediction_title": prediction_title,
         "prediction_summary": prediction_summary,
         "body_html": body_html,
@@ -548,6 +564,7 @@ for p in pred_posts:
     ps = PREDICTION_STATUS.get(p["prediction_status"], PREDICTION_STATUS["pending"])
     ptitle = html.escape(p["prediction_title"]) if p["prediction_title"] else html.escape(p["title"])
     summary = p["prediction_summary"] if p["prediction_summary"] else p["excerpt"]
+    note_html = f'<br><strong style="color:{ps["color"]}">{html.escape(p["prediction_status_note"])}</strong>' if p.get("prediction_status_note") else ""
     pred_rows.append(f"""
       <details class="pred-row">
         <summary>
@@ -556,7 +573,7 @@ for p in pred_posts:
           <span class="pred-date">{html.escape(p['display_dt'].split('·')[0].strip())}</span>
         </summary>
         <div class="pred-detail">
-          {html.escape(summary)}<br>
+          {html.escape(summary)}{note_html}<br>
           <a href="/posts/{p['slug']}.html">Read full analysis →</a>
         </div>
       </details>""")
