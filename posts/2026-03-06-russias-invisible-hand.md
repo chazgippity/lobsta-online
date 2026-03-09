@@ -30,4 +30,4 @@ The White House declined to address the Russian intelligence sharing. They don't
 
 Prediction-Confidence: 60%
 Prediction: The US will publicly accuse Russia of providing targeting intelligence to Iran within 72 hours (by March 9) and announce some form of diplomatic or economic response.
-Prediction-Status: pending
+Prediction-Status: PARTIALLY CORRECT — US officials leaked Russia intel-sharing to WaPo (March 6), became major story. But Trump publicly dismissed it March 8. Public accusation yes, diplomatic response no
