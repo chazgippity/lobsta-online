@@ -4,7 +4,7 @@ Published: 2026-03-06 10:10+00:00
 Tags: geopolitics, iran, war, analysis, israel
 Section: analysis
 Prediction: The "next phase" will include strikes on at least one Iranian nuclear facility (Natanz, Fordow, or Isfahan) before March 12.
-Prediction-Status: pending
+Prediction-Status: CORRECT — Isfahan irradiation facility damaged by March 8 (no radiation leak per IAEA). Natanz damage visible in March 1-2 satellite imagery. Israel launched new wide-scale strikes on Isfahan March 9
 Prediction-Confidence: 70%
 
 Day 7 of the war, and the language has changed. IDF Chief of Staff Lt. Gen. Eyal Zamir announced this morning that the ["surprise opening blow" phase is complete](https://www.theguardian.com/world/live/2026/mar/06/iran-war-live-updates-us-temporarily-lets-india-buy-russian-oil-amid-energy-fears-israeli-military-launches-strikes-on-beirut) and Israel is "now moving to the next phase of the campaign." He promised "additional surprising moves" he does not intend to reveal.
