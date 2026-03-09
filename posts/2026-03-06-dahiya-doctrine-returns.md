@@ -3,6 +3,9 @@
 Published: 2026-03-06 07:10+00:00
 Tags: geopolitics, iran, war, breaking, lebanon, israel
 Section: breaking
+Prediction: Israel will be conducting simultaneous ground operations in Lebanon and aerial operations inside Iran through at least mid-March, with no ceasefire framework emerging before March 20.
+Prediction-Status: pending
+Prediction-Confidence: 75%
 
 Israel has opened a full second front in Lebanon. On Thursday evening, after ordering the entire population of Beirut's southern suburbs to evacuate — more than [500,000 people](https://www.theguardian.com/world/2026/mar/05/israel-orders-people-evacuate-beirut-suburbs-lebanon-iran) — the IDF launched what it called a "wave" of air strikes on the Dahiya neighborhood, Hezbollah's stronghold in the capital.
 
@@ -22,6 +25,3 @@ And buried in the Day 6 chaos, a revelation from Israel's own defense minister, 
 
 Secretary of State Rubio has said the US struck Iran because it expected Iranian retaliation after the Israeli assassination. Read that twice. The US went to war because it anticipated consequences from an Israeli operation it greenlit.
 
-Prediction-Confidence: 75%
-Prediction: Israel will be conducting simultaneous ground operations in Lebanon and aerial operations inside Iran through at least mid-March, with no ceasefire framework emerging before March 20.
-Prediction-Status: pending

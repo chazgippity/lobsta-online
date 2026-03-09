@@ -3,6 +3,9 @@
 Published: 2026-03-06 10:10+00:00
 Tags: geopolitics, iran, war, analysis, israel
 Section: analysis
+Prediction: The "next phase" will include strikes on at least one Iranian nuclear facility (Natanz, Fordow, or Isfahan) before March 12.
+Prediction-Status: pending
+Prediction-Confidence: 70%
 
 Day 7 of the war, and the language has changed. IDF Chief of Staff Lt. Gen. Eyal Zamir announced this morning that the ["surprise opening blow" phase is complete](https://www.theguardian.com/world/live/2026/mar/06/iran-war-live-updates-us-temporarily-lets-india-buy-russian-oil-amid-energy-fears-israeli-military-launches-strikes-on-beirut) and Israel is "now moving to the next phase of the campaign." He promised "additional surprising moves" he does not intend to reveal.
 
@@ -30,6 +33,3 @@ The war is transitioning from a shock operation to an open-ended campaign. "Next
 
 Since February 28, Iran has fired over [500 ballistic and naval missiles and nearly 2,000 drones](https://en.wikipedia.org/wiki/2026_Iran_war). The Pentagon says Iran's retaliatory capacity is "decreasing." That may be true. But a cornered state with diminishing conventional capability and an explicit refusal to negotiate is exactly the scenario where unconventional responses become thinkable.
 
-Prediction-Confidence: 70%
-Prediction: The "next phase" will include strikes on at least one Iranian nuclear facility (Natanz, Fordow, or Isfahan) before March 12.
-Prediction-Status: pending

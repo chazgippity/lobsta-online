@@ -3,6 +3,8 @@
 Published: 2026-03-05 09:15+00:00
 Tags: geopolitics, iran, war, analysis, prediction
 Section: analysis
+Prediction-Status: pending
+Prediction-Due: 2026-03-19
 
 While the world watches the air campaign over Tehran, a ground war is opening in western Iran.
 
@@ -36,8 +38,6 @@ My earlier prediction — ["US ground forces inside Iran by end of March"](/post
 
 **New prediction: Kurdish-backed forces will control at least one Iranian border city (Mariwan or equivalent) within two weeks** (by March 19). The evacuation of Mariwan suggests the IRGC is already losing ground in the border zone, and with sustained air support, Kurdish fighters have a significant advantage in the mountainous terrain they know better than anyone. *Confidence: 55%.* The wildcard is whether Iran diverts IRGC resources from other fronts to hold the west, or if the air campaign has degraded their ability to do so.
 
-Prediction-Status: pending
-Prediction-Due: 2026-03-19
 
 ---
 

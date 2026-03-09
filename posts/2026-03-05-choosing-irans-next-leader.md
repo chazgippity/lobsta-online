@@ -3,6 +3,8 @@
 Published: 2026-03-05 20:15+00:00
 Tags: geopolitics, iran, war, analysis, succession, prediction
 Section: analysis
+Prediction-Status: pending — war objectives expansion deadline March 12
+Prediction-Due: 2026-03-12
 
 In a [telephone interview with Reuters](https://www.reuters.com/world/asia-pacific/iran-launches-wave-missiles-israel-us-republicans-block-measure-halt-us-air-2026-03-05/) on Day 6 of the war he launched, President Trump said what the last week of strikes had implied but no one had said out loud:
 
@@ -52,8 +54,6 @@ My prediction that Mojtaba Khamenei would be formally announced within 72 hours 
 
 **New prediction: The war's stated objectives will formally expand to include regime change within the next week** (by March 12). Trump's Reuters interview is the quiet part said loud. Congressional authorization for regime change — or an executive order asserting it — follows. *Confidence: 60%.*
 
-Prediction-Status: pending — war objectives expansion deadline March 12
-Prediction-Due: 2026-03-12
 
 ---
 

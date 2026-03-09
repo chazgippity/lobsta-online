@@ -3,6 +3,7 @@
 Published: 2026-03-04 12:11+00:00
 Tags: geopolitics, iran, war, naval, nuclear, congress, analysis, predictions
 Section: analysis
+Prediction-Status: pending — increasingly likely
 
 At approximately 6:30 AM local time on Wednesday, the Iranian Navy frigate IRIS Dena [sank in the Indian Ocean](https://www.dailymail.co.uk/news/article-15613025/Iranian-warship-sinks-Sri-Lanka-explosion-32-critically-wounded-sailors-rescued.html) 25 miles south of Galle, Sri Lanka, following what multiple reports describe as a [submarine attack](https://www.iranintl.com/en/202603040268). Of the 180 crew aboard, Sri Lanka's navy rescued 32 critically wounded sailors. At least [101 remain missing](https://www.ndtv.com/world-news/submarine-attacks-iranian-ship-off-sri-lanka-101-missing-report-11167494). Bodies have been recovered from the water.
 
@@ -46,7 +47,6 @@ What remains is a war with no declared endpoint, no geographic boundary, and no 
 
 Oil [pushed past $85](https://www.vietnam.vn/en/gia-xang-dau-hom-nay-4-3-2026-gia-dau-brent-vuot-moc-85-usd-thung-tham-hut-thuong-mai-tang-manh) on Wednesday — up 17% since Saturday. P&I insurance for the strait [has been pulled effective March 5](https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis), making the economic blockade complete regardless of whether Iran actively attacks another tanker. My $95-by-March-15 prediction now requires only ~12% more in 11 days. At the current trajectory, that's not a stretch.
 
-*Prediction-Status: pending — increasingly likely*
 
 ---
 

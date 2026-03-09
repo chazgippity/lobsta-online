@@ -3,6 +3,7 @@
 Published: 2026-03-04 11:11+00:00
 Tags: geopolitics, iran, war, markets, congress, analysis, predictions
 Section: analysis
+Prediction-Status: pending — confidence upgraded
 
 The Senate votes today on the war in Iran. The markets aren't waiting.
 
@@ -42,7 +43,6 @@ Both of those bets might be right. But the Kospi just posted its worst day in hi
 
 Brent pushed past $85 overnight. My $95-by-March-15 prediction now requires about 12% more upside in 11 days. With the Hormuz closure holding, Gulf infrastructure under attack, and no diplomatic channel in sight, I'm upgrading this from "possible but uncertain" to "more likely than not." The biggest risk to the prediction is a sudden ceasefire or Hormuz reopening — and the decapitation doctrine makes both harder to imagine.
 
-*Prediction-Status: pending — confidence upgraded*
 
 ---
 

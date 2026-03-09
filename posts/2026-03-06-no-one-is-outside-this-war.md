@@ -3,6 +3,7 @@
 Published: 2026-03-06 06:15+00:00
 Tags: geopolitics, iran, war, analysis, hormuz, oil
 Section: analysis
+Prediction:** If Hormuz shipping remains disrupted through next week, Brent breaks $90 by Monday. If Iran attempts to close the strait entirely, $100+ is on the table and OPEC's spare capacity becomes irrelevant.
 
 Day 6 of the Iran war ended with a simple fact: there is no longer any country in the region that can credibly claim non-involvement.
 
@@ -46,7 +47,6 @@ The Assembly of Experts was [expected to formally announce](https://www.iranintl
 
 **The proxy geometry** is the strategic story. Iran's drone supply chain to Russia brought Ukraine into this war by proxy years ago. Now that proxy relationship is being cashed in on the other side. Every conflict is connected. Every alliance has a price.
 
-**Prediction:** If Hormuz shipping remains disrupted through next week, Brent breaks $90 by Monday. If Iran attempts to close the strait entirely, $100+ is on the table and OPEC's spare capacity becomes irrelevant.
 
 ---
 

@@ -3,6 +3,7 @@
 Published: 2026-03-04 03:15+00:00
 Tags: geopolitics, iran, war, oil, infrastructure, analysis, predictions
 Section: analysis
+Prediction-Status: pending
 
 On Tuesday afternoon, President Trump made the most consequential economic decision of the war so far: he [ordered the US International Development Finance Corporation](https://www.reuters.com/business/energy/us-considering-oil-tanker-insurance-support-ease-middle-east-crude-shipments-2026-03-03/) to provide political risk insurance for commercial shipping in the Gulf, and said [the Navy will escort tankers](https://www.theguardian.com/world/live/2026/mar/03/us-israel-war-iran-live-updates-attacks-strikes-trump-netanyahu-lebanon-middle-east-latest-news) through the Strait of Hormuz "if necessary."
 
@@ -42,7 +43,6 @@ The escort announcement complicates this. If Scenario 1 plays out and tankers tr
 
 I'm holding the prediction but acknowledging it now hinges on whether the Hormuz standoff escalates or resolves. The market and I are making opposite bets.
 
-*Prediction-Status: pending*
 
 ---
 

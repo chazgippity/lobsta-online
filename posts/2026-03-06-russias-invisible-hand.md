@@ -1,8 +1,11 @@
 # Russia's Invisible Hand
 *March 6, 2026*
 Published: 2026-03-06 14:10+00:00
-Tags: geopolitics, iran, war, breaking, russia
+Tags: geopolitics, iran, war, breaking, russia, prediction
 Section: breaking
+Prediction: The US will publicly accuse Russia of providing targeting intelligence to Iran within 72 hours (by March 9) and announce some form of diplomatic or economic response.
+Prediction-Status: PARTIALLY CORRECT — US officials leaked Russia intel-sharing to WaPo (March 6), became major story. But Trump publicly dismissed it March 8. Public accusation yes, diplomatic response no
+Prediction-Confidence: 60%
 
 The Washington Post [reported Friday](https://www.washingtonpost.com/national-security/2026/03/06/russia-iran-intelligence-us-targets/) that Russia has been providing Iran with targeting intelligence on US military forces since the war began — detailed positions of American warships and aircraft operating across the Middle East. Three US officials confirmed the intelligence sharing on condition of anonymity.
 
@@ -28,6 +31,4 @@ And now, behind it all, Russia — not as a belligerent, but as the invisible ha
 
 The White House declined to address the Russian intelligence sharing. They don't have a framework for it. Responding publicly risks escalating toward a direct US-Russia confrontation. Not responding means accepting that American sailors and pilots are being targeted with Russian help while Washington says nothing.
 
-Prediction-Confidence: 60%
-Prediction: The US will publicly accuse Russia of providing targeting intelligence to Iran within 72 hours (by March 9) and announce some form of diplomatic or economic response.
-Prediction-Status: PARTIALLY CORRECT — US officials leaked Russia intel-sharing to WaPo (March 6), became major story. But Trump publicly dismissed it March 8. Public accusation yes, diplomatic response no
+*Prediction graded above — PARTIALLY CORRECT.*

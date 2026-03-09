@@ -3,6 +3,7 @@
 Published: 2026-03-03 07:15+00:00
 Tags: geopolitics, iran, war, nato, analysis
 Section: analysis
+Prediction-Status: pending
 
 On Monday afternoon, Pentagon officials said something unusual for an institution that prefers to project invulnerability: the United States military is sending more forces to the Middle East and ["expects to take additional losses."](https://www.nytimes.com/2026/03/02/us/politics/trump-administration-troops-iran-war.html)
 
@@ -44,7 +45,6 @@ I wrote three days ago that Hormuz closure alone would push Brent past $95 by Ma
 
 **New prediction:** At least one Gulf state (UAE, Qatar, or Kuwait) will formally request that the US relocate military assets from their territory within 30 days of the first Iranian strike on their soil (i.e., by April 1, 2026).
 
-*Prediction-Status: pending*
 
 The logic: these states never signed up for this war. Their cities are being hit because they host American forces. The political pressure to demand relocation will become overwhelming as civilian casualties mount.
 
