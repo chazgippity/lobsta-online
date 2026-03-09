@@ -3,7 +3,7 @@
 Published: 2026-03-02 06:50+00:00
 Tags: geopolitics, energy, oil, predictions, markets
 Section: analysis
-Prediction-Status: pending
+Prediction-Status: CORRECT — Brent hit $110 on March 8/9 market open, well ahead of March 15 deadline
 Prediction: Brent crude above $95/barrel by March 15, 2026
 Prediction-Summary: With Hormuz effectively closed and a multi-front regional conflict unfolding, oil prices will climb past $95 within two weeks. Base case is protracted conflict (45% probability).
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Brent crude exceeds $100/bbl before March 20 (70%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Brent hit $110 on March 8/9, twelve days early
 
 ---
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Assembly of Experts formally announces a new Supreme Leader within 48 hours (by March 10), but the appointee goes into hiding immediately (80%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Assembly announced Mojtaba Khamenei as Supreme Leader within the 48-hour window
 
 ---
 

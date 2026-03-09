@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: The civilian-IRGC split becomes publicly visible (competing statements or contradictory actions) within one week (70%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Split became visible within days, ahead of one-week deadline
 
 Saturday morning, Iran spoke with two voices.
 

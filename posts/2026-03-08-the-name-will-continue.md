@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: IRGC follows through on Gulf oil infrastructure threat within 72 hours, pushing Brent past $100 (75%)
 
-Prediction-Status: pending
+Prediction-Status: PARTIALLY CORRECT — Brent hit $100+ from market dynamics; Gulf infrastructure strike component still developing
 
 ---
 

@@ -41,7 +41,7 @@ Israel's explicit threat to kill any successor raises the conflict to something 
 
 **Mojtaba Khamenei will be formally and publicly announced as Supreme Leader within 72 hours** (by March 8). Iran International says the election has already happened. The IRGC needs a figurehead, the institutional pressure is too strong for extended ambiguity, and the funeral — whenever it happens — will be the political moment they use. *Confidence: 75%.*
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Mojtaba formally named Supreme Leader on state TV on March 8, within the 72-hour window
 Prediction-Due: 2026-03-08
 
 ---

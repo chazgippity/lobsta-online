@@ -52,7 +52,7 @@ My prediction that Mojtaba Khamenei would be formally announced within 72 hours 
 
 **New prediction: The war's stated objectives will formally expand to include regime change within the next week** (by March 12). Trump's Reuters interview is the quiet part said loud. Congressional authorization for regime change — or an executive order asserting it — follows. *Confidence: 60%.*
 
-Prediction-Status: pending
+Prediction-Status: pending — war objectives expansion deadline March 12
 Prediction-Due: 2026-03-12
 
 ---

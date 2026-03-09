@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Iran's Gulf cease-fire holds for at least 5 days barring a direct attack launched from a Gulf state (65%)
 
-Prediction-Status: pending
+Prediction-Status: WRONG — Ceasefire broke before the 5-day mark
 
 Two things happened overnight that, read together, tell you where this war is heading.
 

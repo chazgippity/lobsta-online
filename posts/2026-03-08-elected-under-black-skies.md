@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: The new Supreme Leader's identity is publicly confirmed within 12 hours; it is Mojtaba Khamenei despite official denials (65%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Mojtaba Khamenei formally named Supreme Leader on state TV within hours
 
 ---
 
