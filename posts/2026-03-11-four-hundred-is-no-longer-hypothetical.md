@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: G7 announces a coordinated strategic petroleum reserve release by end of this week (70%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — The IEA agreed a coordinated 400M-barrel release on March 11, moving the reserve action from recommendation to execution and resolving this call in substance.
 
 ---
 
