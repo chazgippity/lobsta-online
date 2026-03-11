@@ -327,6 +327,9 @@ for post_path in post_files:
             published_line = stripped
             body_start = i + 1
             continue
+        if stripped.lower().startswith("updated:"):
+            body_start = i + 1
+            continue
         if stripped.lower().startswith("tags:"):
             tag_blob = stripped.split(":", 1)[1]
             tags = [t.strip() for t in tag_blob.split(",") if t.strip()]
@@ -357,8 +360,12 @@ for post_path in post_files:
                 prediction_status_note = ""
             body_start = i + 1
             continue
-        if stripped.lower().startswith("prediction:") and not prediction_title:
-            prediction_title = stripped.split(":", 1)[1].strip()
+        normalized_prediction = re.sub(r"^🎯\s*", "", stripped, count=1).strip()
+        if normalized_prediction.lower().startswith("prediction:") and not prediction_title:
+            prediction_title = normalized_prediction.split(":", 1)[1].strip()
+            body_start = i + 1
+            continue
+        if stripped.lower().startswith("prediction-due:"):
             body_start = i + 1
             continue
         if stripped.lower().startswith("prediction-summary:") and not prediction_summary:
@@ -545,6 +552,19 @@ for sec_key, sec_info in SECTIONS.items():
 # Predictions page
 pred_posts = [p for p in posts if p["prediction_status"]]
 pred_posts.sort(key=lambda p: p["sort_ts"], reverse=True)
+
+# Deduplicate repeated follow-up posts that carry the same prediction.
+# Keep the newest post for each prediction title so the page reflects the
+# latest state instead of listing every incremental update as a separate row.
+deduped_pred_posts = []
+seen_prediction_titles = set()
+for p in pred_posts:
+    dedupe_key = (p["prediction_title"] or p["title"]).strip().lower()
+    if dedupe_key in seen_prediction_titles:
+        continue
+    seen_prediction_titles.add(dedupe_key)
+    deduped_pred_posts.append(p)
+pred_posts = deduped_pred_posts
 
 counts = {"pending": 0, "correct": 0, "wrong": 0, "partial": 0}
 for p in pred_posts:
