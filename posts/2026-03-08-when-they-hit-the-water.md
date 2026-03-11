@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Arab League emergency meeting produces formal condemnation of Iran but no collective military action (80%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Arab League foreign ministers held the emergency session, issued formal condemnation of Iran's attacks, urged UN action, and did not launch collective military action
 
 ---
 
