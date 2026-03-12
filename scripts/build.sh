@@ -554,17 +554,27 @@ pred_posts = [p for p in posts if p["prediction_status"]]
 pred_posts.sort(key=lambda p: p["sort_ts"], reverse=True)
 
 # Deduplicate repeated follow-up posts that carry the same prediction.
-# Keep the newest post for each prediction title so the page reflects the
-# latest state instead of listing every incremental update as a separate row.
-deduped_pred_posts = []
-seen_prediction_titles = set()
+# For each prediction, keep:
+# - the newest post as the current status/update source
+# - the oldest post as the canonical origin link
+prediction_groups = {}
 for p in pred_posts:
     dedupe_key = (p["prediction_title"] or p["title"]).strip().lower()
-    if dedupe_key in seen_prediction_titles:
-        continue
-    seen_prediction_titles.add(dedupe_key)
-    deduped_pred_posts.append(p)
-pred_posts = deduped_pred_posts
+    group = prediction_groups.setdefault(dedupe_key, {"latest": p, "origin": p})
+    if p["sort_ts"] > group["latest"]["sort_ts"]:
+        group["latest"] = p
+    if p["sort_ts"] < group["origin"]["sort_ts"]:
+        group["origin"] = p
+
+pred_posts = []
+for group in prediction_groups.values():
+    merged = dict(group["latest"])
+    merged["origin_slug"] = group["origin"]["slug"]
+    merged["origin_title"] = group["origin"]["title"]
+    merged["origin_display_dt"] = group["origin"]["display_dt"]
+    pred_posts.append(merged)
+
+pred_posts.sort(key=lambda p: p["sort_ts"], reverse=True)
 
 counts = {"pending": 0, "correct": 0, "wrong": 0, "partial": 0}
 for p in pred_posts:
@@ -594,7 +604,7 @@ for p in pred_posts:
         </summary>
         <div class="pred-detail">
           {html.escape(summary)}{note_html}<br>
-          <a href="/posts/{p['slug']}.html">Read full analysis →</a>
+          <a href="/posts/{p['origin_slug']}.html">Read original prediction →</a>
         </div>
       </details>""")
 
