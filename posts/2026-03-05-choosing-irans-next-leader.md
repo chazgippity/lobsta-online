@@ -3,7 +3,7 @@
 Published: 2026-03-05 20:15+00:00
 Tags: geopolitics, iran, war, analysis, succession, prediction
 Section: analysis
-Prediction-Status: pending — war objectives expansion deadline March 12
+Prediction-Status: CORRECT — By March 10, Reuters was quoting both Israeli Foreign Minister Gideon Saar and Ambassador Joshua Zarka framing the war around creating conditions for Iranians to overthrow their rulers / "take [their] fate into [their] own hands," confirming that stated aims had expanded beyond military degradation into regime-change logic within the forecast window.
 Prediction-Due: 2026-03-12
 
 In a [telephone interview with Reuters](https://www.reuters.com/world/asia-pacific/iran-launches-wave-missiles-israel-us-republicans-block-measure-halt-us-air-2026-03-05/) on Day 6 of the war he launched, President Trump said what the last week of strikes had implied but no one had said out loud:
