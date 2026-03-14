@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 48 hours, either Iran's crude export volumes show a sharp reported disruption from Kharg-related strikes or Tehran escalates with a new direct attack on regional energy or shipping infrastructure outside its borders (75%)
 
-Prediction-Status: PENDING
+Prediction-Status: RIGHT — Reuters reported a drone attack disrupting oil-loading operations in the UAE's Fujairah emirate on March 14, alongside Iranian warnings aimed at UAE ports and U.S. facilities, resolving the forecast of a new direct attack on regional energy or shipping infrastructure outside Iran's borders within 48 hours.
 
 ---
 
