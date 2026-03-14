@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 72 hours, Reuters reports at least one additional explicit country-specific or cargo-specific safe-passage carve-out through the Strait of Hormuz beyond the Indian vessels already acknowledged (65%)
 
-Prediction-Status: PENDING
+Prediction-Status: RIGHT — Reuters subsequently reported a Turkish-owned ship, the Rozana, was allowed to pass through the Strait of Hormuz with permission from Tehran, resolving the forecast of an additional explicit country-specific carve-out beyond the Indian vessels.
 
 ---
 
