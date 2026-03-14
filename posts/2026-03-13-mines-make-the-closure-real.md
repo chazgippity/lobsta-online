@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: The U.S., UK, or a broader allied coalition announces a concrete escort, minesweeping, or maritime protection deployment in or around the Strait of Hormuz within 24 hours (80%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — by the 24-hour deadline there was still no concrete escort, minesweeping, or maritime protection deployment announcement; Reuters reported only conditional U.S. statements ("if needed" / "when militarily possible") and exploratory UK planning, not an announced deployment.
 
 ---
 
