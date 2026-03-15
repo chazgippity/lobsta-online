@@ -10,7 +10,7 @@ Section: breaking
 
 🎯 Prediction: Brent does not fall below $110 for the remainder of this week (75%)
 
-Prediction-Status: pending
+Prediction-Status: WRONG — Reuters reported Brent settled at $87.80 on March 10 after an 11% drop, so it fell well below $110 before the week ended.
 
 ---
 

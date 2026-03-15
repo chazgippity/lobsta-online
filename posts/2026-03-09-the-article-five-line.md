@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Turkey invokes NATO Article 4 (consultation) but not Article 5 (collective defense) within 7 days if a third Iranian missile enters Turkish airspace (65%)
 
-Prediction-Status: pending
+Prediction-Status: WRONG — Reuters reported on March 13 that a third Iranian missile entered Turkish airspace and was intercepted, but Turkey had not sought NATO Article 4 consultations, so the forecast did not resolve as expected.
 
 ---
 

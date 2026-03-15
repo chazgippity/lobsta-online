@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: The U.S. or its allies announce an expanded naval escort, convoy, or maritime protection posture in or around the Gulf within 72 hours (70%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 14 that France was deploying about a dozen naval vessels, including its carrier strike group, as part of a defensive posture that could extend to the Strait of Hormuz, resolving the call for an expanded maritime protection posture within 72 hours.
 
 ---
 
