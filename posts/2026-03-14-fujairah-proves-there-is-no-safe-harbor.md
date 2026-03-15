@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, the U.S. or at least one allied government publicly announces a concrete naval escort, convoy, minesweeping, or maritime protection deployment tied explicitly to protecting Gulf energy shipping or infrastructure (78%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the 24-hour deadline there was still no concrete announced U.S. or allied escort, convoy, minesweeping, or maritime-protection deployment explicitly tied to protecting Gulf energy shipping or infrastructure; Reuters reporting remained at the level of pressure, willingness, and allied calls rather than an announced order.
 
 ---
 
