@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Brent does not return below $95 for the remainder of March (80%)
 
-Prediction-Status: pending
+Prediction-Status: CORRECT — Reuters reported Brent settled at $98.96 on March 9, and subsequent Reuters reporting on March 10 projected Brent would trade above $95 for the next two months as the Iran war disrupted supply, confirming it did not return below $95 by the March 15 cutoff.
 
 ---
 
