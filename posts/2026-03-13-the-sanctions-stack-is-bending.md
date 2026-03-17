@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 72 hours, at least one additional Western government or multilateral body adopts a temporary sanctions, licensing, or emergency trade carve-out explicitly justified by Iran-war energy disruption (70%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters reported the U.S. waiver on stranded Russian petroleum cargoes, but no additional Western government or multilateral body adopted a comparable sanctions, licensing, or emergency trade carve-out explicitly tied to Iran-war energy disruption within the 72-hour window.
 
 ---
 
