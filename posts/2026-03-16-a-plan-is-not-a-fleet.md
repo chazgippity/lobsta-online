@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 36 hours, Reuters reports either a named allied maritime contribution to Hormuz security or a clear public fracture in the proposed coalition beyond rhetorical hesitation (72%)
 
-Prediction-Status: PENDING
+Prediction-Status: RIGHT — Reuters later reported that several U.S. allies had explicitly rebuffed Trump's call to send warships to escort shipping through Hormuz, resolving the forecast of a clear public fracture in the proposed coalition beyond simple rhetorical hesitation.
 
 ---
 
