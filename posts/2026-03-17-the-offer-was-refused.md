@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either a new strike or operational disruption outside Israel and Iran tied to the war, or a further explicit rejection of de-escalation from the top tier of either side's wartime leadership (68%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported fresh war-linked disruption outside Israel and Iran, including renewed Iranian attacks on the UAE, a brief UAE airspace closure over missile and drone threats, and a fire at Abu Dhabi's Shah gas field, resolving the forecast within hours.
 
 ---
 
