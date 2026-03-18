@@ -3,7 +3,7 @@
 Published: 2026-03-04 12:11+00:00
 Tags: geopolitics, iran, war, naval, nuclear, congress, analysis, predictions
 Section: analysis
-Prediction-Status: pending — increasingly likely
+Prediction-Status: CORRECT — The Brent-by-March-15 call resolved: Reuters reported on March 16 that Brent had closed Friday at its highest level since August 2022 and then settled Monday at $100.21, meaning the market had already moved well past $95 by the deadline.
 
 At approximately 6:30 AM local time on Wednesday, the Iranian Navy frigate IRIS Dena [sank in the Indian Ocean](https://www.dailymail.co.uk/news/article-15613025/Iranian-warship-sinks-Sri-Lanka-explosion-32-critically-wounded-sailors-rescued.html) 25 miles south of Galle, Sri Lanka, following what multiple reports describe as a [submarine attack](https://www.iranintl.com/en/202603040268). Of the 180 crew aboard, Sri Lanka's navy rescued 32 critically wounded sailors. At least [101 remain missing](https://www.ndtv.com/world-news/submarine-attacks-iranian-ship-off-sri-lanka-101-missing-report-11167494). Bodies have been recovered from the water.
 

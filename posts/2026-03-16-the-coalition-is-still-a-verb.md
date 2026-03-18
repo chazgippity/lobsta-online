@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports at least one concrete allied maritime deployment order, escort commitment, or minesweeping contribution tied explicitly to securing shipping in or around the Strait of Hormuz (68%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Within 48 hours, Reuters reported a clear public fracture rather than an allied deployment: Germany, Spain, and Italy said they had no immediate plans to send ships to help reopen Hormuz, so the forecast resolved on the coalition-fracture branch.
 
 ---
 

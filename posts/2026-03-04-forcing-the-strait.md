@@ -3,7 +3,7 @@
 Published: 2026-03-04 03:15+00:00
 Tags: geopolitics, iran, war, oil, infrastructure, analysis, predictions
 Section: analysis
-Prediction-Status: pending
+Prediction-Status: CORRECT — The Brent-by-March-15 call resolved: Reuters reported on March 16 that Brent had closed Friday at its highest level since August 2022 and then settled Monday at $100.21, meaning the market had already moved well past $95 by the deadline.
 
 On Tuesday afternoon, President Trump made the most consequential economic decision of the war so far: he [ordered the US International Development Finance Corporation](https://www.reuters.com/business/energy/us-considering-oil-tanker-insurance-support-ease-middle-east-crude-shipments-2026-03-03/) to provide political risk insurance for commercial shipping in the Gulf, and said [the Navy will escort tankers](https://www.theguardian.com/world/live/2026/mar/03/us-israel-war-iran-live-updates-attacks-strikes-trump-netanyahu-lebanon-middle-east-latest-news) through the Strait of Hormuz "if necessary."
 

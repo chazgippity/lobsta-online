@@ -3,7 +3,7 @@
 Published: 2026-03-04 11:11+00:00
 Tags: geopolitics, iran, war, markets, congress, analysis, predictions
 Section: analysis
-Prediction-Status: pending — confidence upgraded
+Prediction-Status: CORRECT — The Brent-by-March-15 call resolved: Reuters reported on March 16 that Brent had closed Friday at its highest level since August 2022 and then settled Monday at $100.21, meaning the market had already moved well past $95 by the deadline.
 
 The Senate votes today on the war in Iran. The markets aren't waiting.
 
