@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either a confirmed retaliatory strike, evacuation, shutdown, or emergency security action affecting at least one major Gulf energy facility named in Iran's warning — in Saudi Arabia, the UAE, or Qatar — or an explicit diplomatic intervention by one of those states framing the strike on Pars as an unacceptable expansion of the war (76%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters soon reported exactly the kind of follow-through this post anticipated: Iranian missiles caused extensive damage at Qatar's Ras Laffan Industrial City, while Saudi Arabia said it intercepted four ballistic missiles aimed at Riyadh and an attempted drone attack on an eastern gas facility, confirming that named Gulf energy sites and emergency security actions were hit within hours of Tehran's warning.
 
 ---
 
