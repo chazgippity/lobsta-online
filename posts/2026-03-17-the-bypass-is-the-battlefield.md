@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a new attack, disruption, or explicit security warning tied to one of the Gulf's Hormuz-bypass export routes or terminals, or a fresh market/policy acknowledgment that those bypass systems cannot compensate for the strait's closure at scale (69%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported a third attack in four days caused a fire at Fujairah and at least partly halted oil loading at the UAE export terminal, directly validating the call that a Hormuz-bypass route or terminal would face fresh attack or disruption within 48 hours.
 
 ---
 
