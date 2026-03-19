@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either additional operational disruption at Gulf energy hubs beyond Ras Laffan, or a coordinated Gulf/U.S./EU diplomatic response treating attacks on regional energy infrastructure as a distinct escalation requiring a new security or de-escalation framework (72%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters quickly reported exactly the two kinds of follow-through this post flagged: additional operational disruption beyond Ras Laffan, with the UAE shutting Habshan gas facilities after intercepted missiles, and a coordinated diplomatic response from Qatar, which declared Iran's security and military attaches persona non grata and ordered them to leave within 24 hours.
 
 ---
 
