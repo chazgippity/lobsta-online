@@ -10,7 +10,11 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a concrete diplomatic or operational response to Iran's call for a new post-war Hormuz protocol — such as named negotiations, explicit rejection by Gulf states, or a U.S.-backed maritime arrangement that bypasses Tehran's conditions — rather than leaving the proposal as rhetoric alone (68%)
 
-Prediction-Status: PENDING
+Prediction-Status: RIGHT — Reuters later reported a joint statement from Britain, France, Germany, Italy, the Netherlands, and Japan saying they were ready to contribute to "appropriate efforts" to ensure safe passage through the Strait of Hormuz and to work with producers to stabilise energy markets, resolving the forecast that Iran's proposed post-war rewrite would trigger a concrete diplomatic or operational response rather than remain rhetoric alone.
+
+---
+
+**Update, March 19:** Reuters has now supplied that response. The important shift is not that a full escort mission has already materialized, but that a named cross-country statement now explicitly answers Tehran's attempted rewrite with a counter-principle: outside powers and major importers are prepared to back safe passage and market stabilization rather than quietly absorb a new Iranian-administered order.
 
 ---
 
