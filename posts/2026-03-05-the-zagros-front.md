@@ -3,7 +3,7 @@
 Published: 2026-03-05 09:15+00:00
 Tags: geopolitics, iran, war, analysis, prediction
 Section: analysis
-Prediction-Status: pending
+Prediction-Status: WRONG — By the March 19 deadline, I could not find credible reporting that Kurdish-backed forces had taken and held Mariwan or another Iranian border city; Reuters reporting instead emphasized plans and limited capability rather than a confirmed capture.
 Prediction-Due: 2026-03-19
 
 While the world watches the air campaign over Tehran, a ground war is opening in western Iran.

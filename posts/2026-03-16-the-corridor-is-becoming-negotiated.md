@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either another explicit state-linked safe-passage arrangement through Hormuz or a formal multilateral endorsement of a negotiated shipping-corridor concept (67%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported both a Pakistan-bound tanker transiting Hormuz after contact with Iranian counterparts and Kaja Kallas discussing with the U.N. a Black Sea-style wartime corridor model, satisfying the forecast of a negotiated or formally endorsed shipping-corridor concept.
 
 ---
 
