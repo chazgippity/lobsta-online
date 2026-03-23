@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a named U.S. military move against Kharg Island beyond planning language, an explicit administration denial backing away from the idea, or a market/policy response treating Kharg as the decisive lever for reopening Hormuz rather than just one target among many (73%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the 48-hour deadline Reuters had not reported a named U.S. move against Kharg Island beyond planning language, an explicit administration denial, or a market/policy shift treating Kharg as the decisive reopening lever; the idea stayed in the realm of scenario rather than action.
 
 ---
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 72 hours, Reuters reports at least one formal force-majeure declaration, cargo reallocation, or emergency policy response explicitly tied to the long-duration loss of Qatari LNG capacity after the Ras Laffan strike (71%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters subsequently reported that QatarEnergy had declared force majeure on LNG output after the Ras Laffan damage, satisfying the forecast of a formal commercial response to the long-duration loss of Qatari LNG capacity.
 
 ---
 

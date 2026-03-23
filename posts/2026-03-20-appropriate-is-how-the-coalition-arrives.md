@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a named national asset contribution, a defined mission framework for Hormuz safe-passage operations, or an explicit public limit from one of the statement's signatories clarifying what "appropriate efforts" excludes (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the 48-hour deadline Reuters had not reported a named national asset contribution, a defined Hormuz mission framework, or an explicit public limit from a signatory clarifying what 'appropriate efforts' excluded; the coalition remained declarative rather than operationally specified.
 
 ---
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a formal Iranian move to codify differentiated passage through Hormuz — via fees, licensing, tolls, cargo rules, or nationality-based exemptions — or an explicit outside rejection treating such terms as illegitimate rather than merely difficult (72%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported that Iran said the Strait of Hormuz remained open only to ships not linked to its 'enemies' and that passage required coordination with Tehran, confirming the forecast that differentiated passage would be codified rather than remain rhetorical.
 
 ---
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 36 hours, Reuters reports either a named U.S.-led maritime protection measure tied to Hormuz reopening (escort, minesweeping, convoy, or command announcement) or clear evidence that traffic remains only token despite the new strikes on Iran's coastal anti-ship infrastructure (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported that despite U.S. strikes on Iran's coastal anti-ship infrastructure, Hormuz remained effectively closed to most shipping, with only a handful of negotiated exceptions and the vast majority of vessels still holed up, resolving the call on the token-traffic branch.
 
 ---
 
