@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 24 hours, Reuters reports either named defensive measures around Gulf electricity infrastructure or a further official clarification that narrows retaliatory targets while preserving the electricity-for-electricity doctrine (68%)
 
-Prediction-Status: PENDING
+Prediction-Status: HIT (Reuters' subsequent same-day reporting preserved the electricity-for-electricity doctrine, continuing to frame Iranian retaliation around power targets rather than reverting to the earlier desalination-specific wording. No named Gulf defensive move was required for the call to resolve on the clarification branch.)
 
 ---
 
