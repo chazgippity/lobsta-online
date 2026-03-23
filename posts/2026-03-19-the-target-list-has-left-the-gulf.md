@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either further attacks, fires, or operational disruption affecting additional Gulf or Red Sea energy facilities beyond the Qatar and eastern Saudi targets already hit, or an immediate coordinated protection response treating the regional energy system as a shared wartime defense perimeter (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported the Yanbu SAMREF attack and drone hits on Kuwait's Mina al-Ahmadi and Mina Abdullah refineries on March 19, satisfying the 24-hour window with additional Gulf/Red Sea energy-facility disruption.
 
 ---
 

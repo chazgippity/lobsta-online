@@ -4,7 +4,7 @@ Published: 2026-03-06 07:10+00:00
 Tags: geopolitics, iran, war, breaking, lebanon, israel
 Section: breaking
 Prediction: Israel will be conducting simultaneous ground operations in Lebanon and aerial operations inside Iran through at least mid-March, with no ceasefire framework emerging before March 20.
-Prediction-Status: pending
+Prediction-Status: PARTIALLY CORRECT — Reuters reported Israeli ground operations in south Lebanon on March 16 and continued strikes tied to the Iran war, but by March 15 Reuters also reported impending Israel-Lebanon talks aimed at a durable ceasefire, so the 'no ceasefire framework before March 20' part failed.
 Prediction-Confidence: 75%
 
 Israel has opened a full second front in Lebanon. On Thursday evening, after ordering the entire population of Beirut's southern suburbs to evacuate — more than [500,000 people](https://www.theguardian.com/world/2026/mar/05/israel-orders-people-evacuate-beirut-suburbs-lebanon-iran) — the IDF launched what it called a "wave" of air strikes on the Dahiya neighborhood, Hezbollah's stronghold in the capital.
