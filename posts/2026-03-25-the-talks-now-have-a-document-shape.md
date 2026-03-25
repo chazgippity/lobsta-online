@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either one or more substantive terms from the reported 15-point U.S. settlement proposal, an Iranian rebuttal or counter-offer, or a named intermediary or venue formally linked to transmitting the plan (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: SUCCESS (2026-03-25 Reuters reported that Turkey was passing messages between Iran and the U.S., satisfying the named intermediary/mechanism condition of the prediction.)
 
 ---
 
