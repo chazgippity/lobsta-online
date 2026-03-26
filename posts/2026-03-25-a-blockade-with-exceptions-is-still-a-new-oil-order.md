@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either additional state-coordinated tanker transits through Hormuz, formal criteria for exemptions or escorted passage, or broader strategic-stockpile action by major importers responding to the new shipping regime (76%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters subsequently reported that Malaysian vessels were being allowed to pass through the Strait of Hormuz, confirming that the Thai transit was not an isolated anomaly and that additional state-linked carve-outs were emerging under the new selective-passage regime.
 
 ---
 
