@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a named mediator, venue, or official Iranian counterpart behind the current U.S.-Iran contacts, or a sharper public contradiction in which one side keeps advancing agreement language while the other formally denies a negotiation channel exists (69%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported within the window that Iran denied talks with the U.S. even as Trump advanced negotiation language, matching the sharper public contradiction clause.
 
 ---
 

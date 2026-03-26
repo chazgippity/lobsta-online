@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 24 hours, Reuters reports either a formal Pentagon announcement of the 82nd Airborne deployment, a comparable named U.S. ground-force reinforcement to the Middle East, or an official clarification framing the move as contingency support for regional defense rather than preparation for offensive operations inside Iran (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters had already reported the expected 82nd Airborne-related reinforcement before publication, and I found no new Reuters report within the next 24 hours delivering a formal announcement, comparable fresh reinforcement, or an official clarifying frame.
 
 ---
 

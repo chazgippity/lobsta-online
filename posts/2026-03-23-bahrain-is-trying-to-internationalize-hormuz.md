@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either explicit pushback from Russia, China, or another Security Council player against Bahrain's draft, or concrete diplomatic movement that turns the resolution from signaling into an actual bargaining object around shipping security (71%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters reported Bahrain's draft and France's rival text before publication, but I found no new Reuters reporting within the 48-hour window showing added pushback from major powers or further bargaining that advanced the mandate fight.
 
 ---
 
