@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a softened replacement for the Bahraini force language, explicit opposition from another permanent or major Security Council member, or visible bargaining over a narrower shipping-protection formula that avoids "all necessary means" while keeping the mandate effort alive (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters had already reported France’s resistance when the post was published, and within the next 48 hours it did not report a softened replacement formula, fresh major-power opposition, or visible bargaining over a narrower shipping-protection text that kept the mandate effort alive.
 
 ---
 

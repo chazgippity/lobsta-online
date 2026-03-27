@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 7 days, Reuters reports at least one major energy-importing government or regional bloc announcing a concrete supply-security move — such as a nuclear restart, emergency stockpile expansion, accelerated supplier diversification, or a formal renewables push — explicitly justified by disruption from the Iran war (67%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters described energy-security pressure and broader adjustment, but by the seven-day deadline it had not reported a major energy-importing government or bloc announcing a concrete supply-security move explicitly justified by disruption from the Iran war.
 
 ---
 

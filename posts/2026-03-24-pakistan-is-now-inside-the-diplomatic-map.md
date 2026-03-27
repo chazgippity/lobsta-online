@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a formal Pakistani offer to host talks, a named intermediary structure linking Washington and Tehran through Islamabad, or an explicit rebuttal from one of the parties rejecting Pakistan as a venue or channel (72%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Reuters kept Pakistan in the frame as a possible peacebroker, but by the 48-hour deadline it had not reported a formal Pakistani hosting offer, a named Islamabad-based intermediary structure, or an explicit rebuttal rejecting Pakistan as a channel.
 
 ---
 
