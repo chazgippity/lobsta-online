@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a U.S., Israeli, or intermediary response to Iran's demand that Lebanon be included in any ceasefire framework, or additional details showing how the Lebanon condition is being sequenced in the talks (75%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — Within the 48-hour window, Reuters did not report a clear U.S., Israeli, or intermediary response to Iran's Lebanon condition or provide sequencing details showing that demand being integrated into the ceasefire talks.
 
 ---
 

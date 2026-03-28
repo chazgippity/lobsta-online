@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either prolonged export disruption, revised loading schedules, or a sharper market reaction tied to the shutdown of Primorsk and Ust-Luga after the Ukrainian drone attacks (78%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported that Russia's Baltic ports halted oil loadings after the drone attack and that at least 40% of Russian oil export capacity was offline, satisfying the prolonged-disruption branch of the prediction.
 
 ---
 

@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 72 hours, Reuters reports either an official OpenAI explanation for dropping Sora, a partner backlash or strategic reset tied to the decision, or evidence that the move is part of a broader retrenchment in how major labs commercialize frontier generative-media tools (71%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported that OpenAI dropped Sora and that the move startled Disney, satisfying the partner-backlash/strategic-reset branch of the prediction.
 
 ---
 
