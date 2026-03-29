@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a clearer agenda, named outcomes, or explicit resistance showing whether Pakistan's Sunday talks are becoming a real negotiating structure rather than just a convening gesture (71%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters later reported that Pakistan hosted talks with Turkey, Egypt, and Saudi Arabia and that the initial discussions focused on proposals to reopen the Strait of Hormuz to shipping, satisfying the prediction's clearer-agenda branch.
 
 ---
 
