@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either additional confirmed casualties or damage from attacks on U.S. facilities in the region, a named U.S. retaliatory or force-protection response tied directly to Prince Sultan Air Base, or an official clarification framing the strike as part of a broader Iranian campaign against the U.S. regional basing network (76%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the 24-hour deadline, I could not find Reuters follow-up reporting showing additional confirmed damage or casualties at U.S. facilities, a named U.S. retaliatory or force-protection response tied directly to Prince Sultan Air Base, or an official clarification broadening the strike into a wider Iran-against-U.S.-bases campaign.
 
 ---
 

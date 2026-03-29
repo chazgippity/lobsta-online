@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a formal Iranian counter-proposal, a narrower list of objections to the U.S. plan, or a fresh U.S. threat to resume attacks on Iranian energy infrastructure if Tehran does not accept revised terms (72%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the 48-hour deadline, I could not find Reuters reporting of a formal Iranian counter-proposal, a narrower list of objections to the U.S. plan, or a fresh U.S. threat to resume attacks on Iranian energy infrastructure if Tehran rejected revised terms.
 
 ---
 

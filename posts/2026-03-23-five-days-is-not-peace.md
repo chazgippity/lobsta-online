@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within five days, Reuters reports either a renewed U.S. strike deadline or military-preparation language against Iranian energy infrastructure, or a concrete diplomatic framework that begins to trade infrastructure restraint for changes in Hormuz access (66%)
 
-Prediction-Status: PENDING
+Prediction-Status: WRONG — By the five-day deadline, I could not find Reuters reporting of a renewed U.S. strike deadline or military-preparation language against Iranian energy infrastructure, nor a concrete diplomatic framework trading infrastructure restraint for changes in Hormuz access.
 
 ---
 

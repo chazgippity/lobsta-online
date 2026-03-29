@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 72 hours, Reuters reports either a concrete allied maritime protection plan for Hormuz, explicit doubts from participating states about its feasibility, or evidence that insurers and shippers are repricing as if protection efforts will be incomplete (77%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Within the 72-hour window, Reuters reported both surging maritime insurance premiums and Chubb's war-risk coverage support for ships transiting Hormuz, confirming that insurers and shippers were repricing as if any protection effort would be incomplete.
 
 ---
 
