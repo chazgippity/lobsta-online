@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 48 hours, Reuters reports either a concrete Gulf emergency move to harden or protect desalination and electricity infrastructure, or a further explicit Iranian or U.S. statement tying Hormuz access to attacks on civilian power and water systems (72%)
 
-Prediction-Status: HIT (Reuters later reported a further explicit Iranian statement narrowing the threat into an electricity-for-electricity formula: Israel's power plants and plants supplying U.S. bases in the Gulf, confirming continued linkage between Hormuz coercion and civilian/strategic power systems on March 23, 2026.)
+Prediction-Status: CORRECT — Reuters later reported a further explicit Iranian statement narrowing the threat into an electricity-for-electricity formula: Israel's power plants and plants supplying U.S. bases in the Gulf, confirming continued linkage between Hormuz coercion and civilian/strategic power systems on March 23, 2026.
 
 ---
 
