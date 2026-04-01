@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either a formal Pentagon statement, a named troop deployment or staging move, or an allied reaction that treats possible U.S. ground operations in Iran as a live policy question rather than a leaked contingency (78%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 29 that the Pentagon was preparing for weeks of possible ground operations in Iran, validating the prediction's named U.S. planning/staging branch within 24 hours.
 
 ---
 

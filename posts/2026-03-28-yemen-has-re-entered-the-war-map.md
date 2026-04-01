@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either additional launches or interceptions tied to Yemen, a formal coalition warning or naval-security response linking the Red Sea more explicitly to the Iran war, or a market/shipping reaction treating the Yemen launch as evidence that the Red Sea and Hormuz risks are now re-merging (74%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 28 that Yemen's Houthis entered the Iran war with attacks on Israel, confirming additional Yemen-linked launches and that the Red Sea file was being treated again as an active theater within 24 hours.
 
 ---
 

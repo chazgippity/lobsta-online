@@ -10,7 +10,7 @@ Section: breaking
 
 Prediction: Within 24 hours, Reuters reports either a named IAEA-linked alarm, protective or evacuation steps, explicit fallout-risk language from additional officials, or further strike reporting that keeps Bushehr in the nuclear-safety file rather than letting it fade back into ordinary battlefield coverage (77%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 28 that Rosatom said attacks near Bushehr posed a direct threat to nuclear safety, citing another strike near the plant, IAEA reporting, and additional staff evacuations, which kept Bushehr firmly in the nuclear-safety file within 24 hours.
 
 ---
 

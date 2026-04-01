@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either a direct UAE official confirmation, a named mission detail for the Hormuz taskforce, or another Gulf state publicly joining or explicitly declining participation (68%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 27 that the UAE told the U.S. and other allies it would participate in a multinational maritime taskforce to reopen the Strait of Hormuz, satisfying the prediction's direct Gulf-state participation branch within 48 hours.
 
 ---
 

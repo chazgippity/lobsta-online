@@ -10,7 +10,7 @@ Section: analysis
 
 Prediction: Within 48 hours, Reuters reports either another European operational restriction, an explicit allied split over U.S. war logistics, or a named workaround showing that the coalition now has to route around political friction rather than assume automatic access (69%)
 
-Prediction-Status: PENDING
+Prediction-Status: CORRECT — Reuters reported on March 31 that France, Italy, and Spain pushed back on U.S.-Israeli war logistics, including airspace and support restrictions, confirming the allied-friction/operational-restriction branch within 48 hours.
 
 ---
 
